@@ -17,7 +17,7 @@ const TemplateWrapper = ({ children, data }) => (
         {
           name: 'description',
           content:
-            'This is the best webpage on the content of the Digital Network Economy class in CBS.',
+            'This website informs about the content of the Digital Network Economy class at Cologne Business School.',
         },
         {
           name: 'keywords',

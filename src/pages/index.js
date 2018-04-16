@@ -22,7 +22,7 @@ import img14 from '../img/1200/14.jpg'
 const IndexPage = () => (
   <Container>
     <Section>
-      <h1>Digital Network Economy</h1>
+      <h1 id="dne">Digital Network Economy</h1>
       <p>
         This website tells you more about the course Digital Network Economy.
         The course is taught at{' '}
@@ -34,7 +34,7 @@ const IndexPage = () => (
 
     <Section>
       <Img src={img08} alt="" />
-      <h2>The Future of Work</h2>
+      <h2 id="future-of-work">The Future of Work</h2>
       <p>
         The more digitalized our world becomes, the more it is going to change.
         Which jobs will still exist in the future, which are going to change and
@@ -54,7 +54,7 @@ const IndexPage = () => (
 
     <Section>
       <Img src={img12} alt="" />
-      <h2>Digital Skills</h2>
+      <h2 id="digital-skills">Digital Skills</h2>
       <Flex>
         <Box width={[1, 1 / 2]} pr={[0, 1]}>
           <ol>
@@ -96,7 +96,7 @@ const IndexPage = () => (
 
     <Section>
       <Img src={img04} alt="" />
-      <h2>Pitch Deck</h2>
+      <h2 id="pitch-deck">Pitch Deck</h2>
       <Flex>
         <Box width={[1, 1 / 2]} pr={[0, 1]}>
           <ol>
@@ -124,7 +124,7 @@ const IndexPage = () => (
 
     <Section>
       <Img src={img14} alt="" />
-      <h2>The importance of video skills</h2>
+      <h2 id="video-skills">The importance of video skills</h2>
       <p>
         There are more and more paid streams such as Spotify, Netflix or
         podcasts. This means classical television or radio advertising will not
@@ -141,7 +141,7 @@ const IndexPage = () => (
 
     <Section>
       <Img src={img01} alt="" />
-      <h2>Story Telling</h2>
+      <h2 id="story-telling">Story Telling</h2>
       <p>
         »If we take a risk and show that we are human and vulnerable then that's
         where the best stories lie.«<br /> &mdash; Andrea Gibbs
@@ -191,7 +191,7 @@ const IndexPage = () => (
 
     <Section>
       <Img src={img05} alt="" />
-      <h2>Website Programming</h2>
+      <h2 id="website-programming">Website Programming</h2>
       <Flex>
         <Box width={[1, 1 / 2]}>
           <p>We are building a website with</p>
@@ -287,7 +287,9 @@ const IndexPage = () => (
               EsLint, File Utils, Guides, npm, npm Intellisense, Sort lines,
               Prettier, vscode-styled-components.
             </li>
-            <li>or any other editor of your liking, e.g. Atom, Sublime, etc.</li>
+            <li>
+              or any other editor of your liking, e.g. Atom, Sublime, etc.
+            </li>
           </ul>
         </Box>
       </Flex>
@@ -297,7 +299,7 @@ const IndexPage = () => (
 
     <Section>
       <Img src={img07} alt="" />
-      <h2>GitHub</h2>
+      <h2 id="github">GitHub</h2>
       <p>
         The sources for this website are on{' '}
         <a href="https://github.com/DrUlrichAnders/DNE" target="_blank">
@@ -311,7 +313,7 @@ const IndexPage = () => (
 
     <Section>
       <Img src={img09} alt="" />
-      <h2>Small Projects Realised with SCRUM</h2>
+      <h2 id="scrum">Small Projects Realised with SCRUM</h2>
       <p>
         We will achieve some of our objectives by help of organising ourselves
         in an agile manner.
