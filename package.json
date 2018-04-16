@@ -9,7 +9,7 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.10",
     "@fortawesome/react-fontawesome": "^0.0.18",
     "babel-plugin-styled-components": "^1.5.1",
-    "gatsby": "^1.9.250",
+    "gatsby": "^1.9.251",
     "gatsby-image": "^1.0.46",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
@@ -22,7 +22,7 @@
     "gatsby-remark-images": "^1.5.61",
     "gatsby-remark-prismjs": "^1.2.24",
     "gatsby-remark-smartypants": "^1.4.12",
-    "gatsby-source-filesystem": "^1.5.31",
+    "gatsby-source-filesystem": "^1.5.32",
     "gatsby-transformer-remark": "^1.7.40",
     "grid-styled": "^4.0.0",
     "react-helmet": "^5.2.0",
@@ -30,9 +30,7 @@
     "styled-system": "^2.2.1",
     "typography": "^0.16.6"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
