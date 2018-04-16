@@ -14,7 +14,7 @@ const ImprintPage = () => (
       <h3>Responsible</h3>
       <p>
         Dr. Ulrich Anders<br />
-        Cologne Business School<br />>
+        Cologne Business School<br />
         Hardefuststr. 1<br />
         50677 Köln
       </p>
