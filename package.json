@@ -30,7 +30,9 @@
     "styled-system": "^2.2.1",
     "typography": "^0.16.6"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

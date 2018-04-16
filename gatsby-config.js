@@ -3,6 +3,7 @@ module.exports = {
     title: 'DNE1',
     version: '1.1.0',
     date: 'April 14, 2018',
+    siteUrl: 'https://drulrichanders.github.io',
   },
   plugins: [
     'gatsby-image',
@@ -23,6 +24,9 @@ module.exports = {
         name: `src`,
         path: `${__dirname}/src/`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
     },
     {
       resolve: `gatsby-transformer-remark`,
