@@ -11,17 +11,17 @@ I'm writing this blog to give us all a little summary of last lesson and to wrap
 
 ### So let's start with **Step 1**: Install the following programs
 
-* Node LTS version 8: https://nodejs.org/en/
-* Yarn (A Node Package Manager): https://yarnpkg.com/lang/en/docs/install/
-* Version control: https://git-scm.com/
-* Git Gui: https://desktop.github.com/ . You will also need to create your own Github Account online on github.com
-* Python Version 2.7 (may not be needed): https://www.python.org/downloads/
-* Editor vscode: https://code.visualstudio.com/
+* Node LTS version 8: [https://nodejs.org/en/](https://nodejs.org/en/)
+* Yarn (A Node Package Manager): [https://yarnpkg.com/lang/en/docs/install/](https://yarnpkg.com/lang/en/docs/install/)
+* Version control: [https://git-scm.com/](https://git-scm.com/)
+* Git Gui: [https://desktop.github.com/](https://desktop.github.com/). You will also need to create your own Github Account online on github.com
+* Python Version 2.7: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+* Editor vscode: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 
 ### **Step 2**: Create a local copy of the website
 
-On https://github.com/DrUlrichAnders/DNE is the website repository. The repository contains all files needed to edit the current website, or to copy and taylor it for your own use.
+On [https://github.com/DrUlrichAnders/DNE](https://github.com/DrUlrichAnders/DNE) is the website repository. The repository contains all files needed to edit the current website, or to copy and taylor it for your own use.
 
 * Click the link. On the top right, click `Fork`. This will copy this project into your Github Account.
 
@@ -29,9 +29,9 @@ On https://github.com/DrUlrichAnders/DNE is the website repository. The reposito
 
 * Now, open your Github Desktop App and go to `file --> clone repository`. Select your forked project. Make sure to choose a file path so that you can find your files later. You just downloaded all files of the website!
 
-* the 'DNE'-Project is now in your Github Desktop App. Click on `Repository --> Open in Command Prompt`. Type in `yarn install` and hit enter. This will install a package needed to run the web server. Then do the same thing with `gatsby develop`. This command will start your web site on your computer. In order to preview the website that you are editing, go to http://localhost:8000 .
+* the 'DNE'-Project is now in your Github Desktop App. Click on `Repository --> Open in Command Prompt`. Type in `yarn install` and hit enter. This will install a package needed to run the web server. Then do the same thing with `gatsby develop`. This command will start your web site on your computer. In order to preview the website that you are editing, go to [http://localhost:8000](http://localhost:8000) .
 
-![](screenshot_Github desktop.JPG)
+![GitHubDesktop](../../img/1200/21.jpg)
 
 ### **Step 3**: Start editing
 
