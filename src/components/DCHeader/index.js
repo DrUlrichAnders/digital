@@ -17,6 +17,9 @@ import faQuestionCircle from '@fortawesome/fontawesome-free-solid/faQuestionCirc
 import faInfoCircle from '@fortawesome/fontawesome-free-solid/faInfoCircle'
 import faGem from '@fortawesome/fontawesome-free-solid/faGem'
 
+/**
+ * DCHeader: Dumb Component Header
+ */
 const DCHeader = () => (
   <Header>
     <HeaderSection>

@@ -10,3 +10,8 @@ svg {
   height: 1em;
   vertical-align: -0.125em;
 }
+
+
+:not(pre) > code[class*="language-"] {
+  white-space: nowrap;
+}
