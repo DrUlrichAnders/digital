@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'DNE1',
-    version: '1.1.0',
-    date: 'April 14, 2018',
+    version: '1.2.0',
+    date: 'April 20, 2018',
     siteUrl: 'https://drulrichanders.github.io',
   },
   plugins: [

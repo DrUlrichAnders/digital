@@ -10,7 +10,7 @@ React has become hugely popular as you can see on [npm | React](https://www.npmj
 
 In this blog, I am going to introduce how a component is built. For this we are taking the `Header` component of this website (from version 1.1.0) as an example.
 
-There are two ways to define components in React. The easier way is to simply define a javascript function in ES6 syntax:
+There are two ways to define components in React. The easier way is to simply define a JavaScript function in ES6 syntax:
 
 ```jsx
 const DCHeader = () => ( 
@@ -83,7 +83,7 @@ export default DCHeader
 ```
 
 Now, the components used in `DCHeader` have all been defined somewhere else. This is why they have been imported at the beginning of the file.
-Components can be imported from other packages or from your own folder. For instance, the component `FontAwesomeIcon` is imported from a package called `@fortawesome/react-fontawesome`. The component `Header` has been defined by myself and sits in a folder at `../../styled-components`.  
+Components can be imported from other packages or from your own folders. For instance, the component `FontAwesomeIcon` is imported from a package called `@fortawesome/react-fontawesome`. The component `Header` has been defined by myself and sits in a folder at `../../styled-components`.  
 
 As you can probably tell from the name of the folder `styled-components` the components I have defined myself have all received styling information. This means they have information about their background color, width, margin, padding, font-size, link color and so on. If you want to better understand the styling information look into the [CSS Cheat Sheet](/cheatsheets#css).
 

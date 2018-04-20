@@ -1,7 +1,7 @@
 {
   "name": "DNE",
   "description": "Digital Network Economy Class",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Ulrich Anders",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.5",
