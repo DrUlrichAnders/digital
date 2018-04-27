@@ -9,27 +9,27 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.10",
     "@fortawesome/react-fontawesome": "^0.0.18",
     "babel-plugin-styled-components": "^1.5.1",
-    "gatsby": "^1.9.253",
+    "gatsby": "^1.9.255",
     "gatsby-image": "^1.0.47",
     "gatsby-link": "^1.6.41",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-react-next": "^1.0.11",
     "gatsby-plugin-sharp": "^1.6.43",
-    "gatsby-plugin-sitemap": "^1.2.22",
+    "gatsby-plugin-sitemap": "^1.2.23",
     "gatsby-plugin-styled-components": "^2.0.11",
     "gatsby-plugin-typography": "^1.7.18",
     "gatsby-remark-copy-linked-files": "^1.5.32",
     "gatsby-remark-images": "^1.5.62",
-    "gatsby-remark-prismjs": "^2.0.1",
+    "gatsby-remark-prismjs": "^2.0.2",
     "gatsby-remark-smartypants": "^1.4.12",
-    "gatsby-source-filesystem": "^1.5.33",
+    "gatsby-source-filesystem": "^1.5.34",
     "gatsby-transformer-remark": "^1.7.40",
-    "grid-styled": "^4.0.0",
+    "grid-styled": "^4.1.0",
     "prismjs": "^1.14.0",
     "react-helmet": "^5.2.0",
     "styled-components": "^3.2.6",
-    "styled-system": "^2.2.1",
-    "typography": "^0.16.6"
+    "styled-system": "^2.2.4",
+    "typography": "^0.16.16"
   },
   "keywords": [
     "gatsby"
@@ -44,8 +44,5 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "prettier": "^1.12.1"
-  },
-  "resolve": {
-    "styled-system": "2.2.1"
   }
 }
