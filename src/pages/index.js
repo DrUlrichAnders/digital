@@ -22,7 +22,7 @@ import img14 from '../img/1200/14.jpg'
 const IndexPage = () => (
   <Container>
     <Section>
-      <h1 id="dne">Digital Network Economy</h1>
+      <h1 id="dne">Digital Network Economy Course</h1>
       <p>
         This website tells you more about the course Digital Network Economy.
         The course is taught at{' '}
