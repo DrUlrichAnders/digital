@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { Section } from '../styled-components'
+import { Section } from '../components-styled'
 
 export default ({ data }) => {
   return (

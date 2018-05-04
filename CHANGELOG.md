@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+## [v1.3.0] - 2018-05-03
+
+- updated dependencies
+- introduced responsive images and aspect ratios
+- added lazysizes and blur-up
+- added Browser name and version
+- renamed styled-components into components-styled
+
 ## [v1.2.0] - 2018-04-20
 
 - Update dependencies

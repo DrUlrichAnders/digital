@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'DNE1',
-    version: '1.2.0',
-    date: 'April 20, 2018',
+    title: 'DNE',
+    version: '1.3.0',
+    date: 'May 3, 2018',
     siteUrl: 'https://drulrichanders.github.io',
   },
   plugins: [
@@ -10,7 +10,6 @@ module.exports = {
     'gatsby-link',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-react-next',
-    //'gatsby-plugin-sitemap',
     'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-plugin-typography`,

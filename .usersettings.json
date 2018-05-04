@@ -1,0 +1,78 @@
+{
+  // Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
+  // Aktiviert Absturzberichte, die an Microsoft gesendet werden.
+  // Diese Option erfordert einen Neustart, damit sie wirksam wird.
+  "telemetry.enableCrashReporter": false,
+  // Aktivieren Sie das Senden von Nutzungsdaten und Fehlern an Microsoft.
+  "telemetry.enableTelemetry": false,
+  "rest-client.enableTelemetry": false,
+  "atomKeymap.promptV3Features": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderIndentGuides": false,
+  "editor.tabSize": 2,
+  "eslint.packageManager": "yarn",
+  "javascript.validate.enable": false,
+  "prettier.eslintIntegration": true,
+  "prettier.semi": false,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "workbench.colorTheme": "Sublime Material Theme - Dark",
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#1A1A1A",
+    "statusBar.noFolderBackground": "#212121",
+    "statusBar.debuggingBackground": "#263238"
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+  "code-runner.executorMap": {
+    "javascript": "babel-node"
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "prettier.proseWrap": "always",
+  "cSpell.language": "en, de",
+  "cSpell.userWords": [
+    "a",
+    "advisors",
+    "bowser",
+    "box",
+    "checkboxes",
+    "coachings",
+    "customizations",
+    "ebitda",
+    "financials",
+    "financings",
+    "lazyload",
+    "lazyloaded",
+    "lazysizes",
+    "mdash",
+    "nanoid",
+    "ndash",
+    "noncompete",
+    "operations",
+    "pcln",
+    "picturefill",
+    "presentee",
+    "property",
+    "rebass",
+    "resources",
+    "subsidised",
+    "taxes",
+    "tick"
+  ],
+  "git.enableSmartCommit": true,
+  "git.path": "c:/git/bin/git.exe",
+  "markdownlint.config": {
+    "MD013": false,
+    "MD022": false
+  },
+  "window.zoomLevel": 0
+}

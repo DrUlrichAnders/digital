@@ -1,31 +1,27 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react"
+import Link from "gatsby-link"
 import {
   Container,
   StyledFlex as Flex,
   Img,
+  Picture,
+  Source,
   Section,
-  Hr,
-} from '../styled-components'
-import { Box } from 'grid-styled'
+  Hr
+} from "../components-styled"
 
-import img01 from '../img/1200/01.jpg'
-import img03 from '../img/1200/03.jpg'
-import img04 from '../img/1200/04.jpg'
-import img05 from '../img/1200/05.jpg'
-import img07 from '../img/1200/07.jpg'
-import img08 from '../img/1200/08.jpg'
-import img09 from '../img/1200/09.jpg'
-import img12 from '../img/1200/12.jpg'
-import img14 from '../img/1200/14.jpg'
+import { Box } from "grid-styled"
+
+import img from "../img"
+import DCPicture from "../components/DCPicture"
 
 const IndexPage = () => (
   <Container>
     <Section>
-      <h1 id="dne">Digital Network Economy Course</h1>
+      <h1 id="dne">Digital Network Economy</h1>
       <p>
         This website tells you more about the course Digital Network Economy.
-        The course is taught at{' '}
+        The course is taught at{" "}
         <a href="https://cbs.de/">Cologne Business School</a>.
       </p>
     </Section>
@@ -33,7 +29,8 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <Img src={img08} alt="" />
+      <DCPicture img={img["08"]} />
+
       <h2 id="future-of-work">The Future of Work</h2>
       <p>
         The more digitalized our world becomes, the more it is going to change.
@@ -41,8 +38,8 @@ const IndexPage = () => (
         which are plainly disappearing?
       </p>
       <p>
-        Will robotics, artificial intelligence and machine learning overall take
-        away jobs or will they actually overall help to create jobs?
+        Will robotics, artificial intelligence and machine learning take away
+        jobs or will they actually overall help to create jobs?
       </p>
       <p>
         Companies and work are certainly becoming more modular and
@@ -53,7 +50,7 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <Img src={img12} alt="" />
+      <DCPicture img={img["12"]} />
       <h2 id="digital-skills">Digital Skills</h2>
       <Flex>
         <Box width={[1, 1 / 2]} pr={[0, 1]}>
@@ -95,7 +92,7 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <Img src={img04} alt="" />
+      <DCPicture img={img["04"]} />
       <h2 id="pitch-deck">Pitch Deck</h2>
       <Flex>
         <Box width={[1, 1 / 2]} pr={[0, 1]}>
@@ -123,7 +120,7 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <Img src={img14} alt="" />
+      <DCPicture img={img["14"]} />
       <h2 id="video-skills">The importance of video skills</h2>
       <p>
         There are more and more paid streams such as Spotify, Netflix or
@@ -140,7 +137,7 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <Img src={img01} alt="" />
+      <DCPicture img={img["01"]} />
       <h2 id="story-telling">Story Telling</h2>
       <p>
         »If we take a risk and show that we are human and vulnerable then that's
@@ -155,7 +152,7 @@ const IndexPage = () => (
         wonder.« <br /> &mdash; Andrew Stanton
       </p>
       <p>
-        »Make a promise. This story leads somewhere that is worth your time.«{' '}
+        »Make a promise. This story leads somewhere that is worth your time.«{" "}
         <br /> &mdash; Andrew Stanton
       </p>
       <p>
@@ -163,7 +160,7 @@ const IndexPage = () => (
         2.« <br /> &mdash; Andrew Stanton
       </p>
       <p>
-        »You don't believe the message, if you don't believe the messenger.«{' '}
+        »You don't believe the message, if you don't believe the messenger.«{" "}
         <br /> &mdash; Dr. Viet Etzold
       </p>
       <p>
@@ -190,7 +187,7 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <Img src={img05} alt="" />
+      <DCPicture img={img["05"]} />
       <h2 id="website-programming">Website Programming</h2>
       <Flex>
         <Box width={[1, 1 / 2]}>
@@ -229,7 +226,7 @@ const IndexPage = () => (
             <li>
               <a href="https://fontawesome.com/cheatsheet" target="_blank">
                 Font Awesome
-              </a>{' '}
+              </a>{" "}
               (
               <a
                 href="https://github.com/FortAwesome/react-fontawesome"
@@ -246,7 +243,7 @@ const IndexPage = () => (
             <li>
               <a href="https://github.com/explore" target="_blank">
                 GitHub
-              </a>{' '}
+              </a>{" "}
               (
               <a href="https://octoverse.github.com/" target="_blank">
                 Octoverse
@@ -268,12 +265,12 @@ const IndexPage = () => (
               </a>
             </li>
             <li>
-              {' '}
+              {" "}
               GitHub (
               <a href="https://git-scm.com/" target="_blank">
                 git
-              </a>{' '}
-              |{' '}
+              </a>{" "}
+              |{" "}
               <a href="https://desktop.github.com/" target="_blank">
                 Desktop
               </a>)
@@ -298,10 +295,10 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <Img src={img07} alt="" />
+      <DCPicture img={img["07"]} />
       <h2 id="github">GitHub</h2>
       <p>
-        The sources for this website are on{' '}
+        The sources for this website are on{" "}
         <a href="https://github.com/DrUlrichAnders/DNE" target="_blank">
           GitHub | DrUlrichAnders/DNE
         </a>.
@@ -312,7 +309,19 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <Img src={img09} alt="" />
+      <Picture>
+        <Source
+          media={"(min-width: 800px)"}
+          srcSet={img["09"]["0100"]["16x9"]}
+          data-srcset={img["09"]["1200"]["16x9"]}
+        />
+        <Img
+          data-sizes="100vw"
+          src={img["09"]["0100"]["16x9"]}
+          className="lazyload blur-up"
+          alt={"img09"}
+        />
+      </Picture>
       <h2 id="scrum">Small Projects Realised with SCRUM</h2>
       <p>
         We will achieve some of our objectives by help of organising ourselves

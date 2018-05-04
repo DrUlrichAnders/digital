@@ -4,10 +4,11 @@ import Helmet from 'react-helmet'
 
 import DCHeader from '../components/DCHeader'
 import DCFooter from '../components/DCFooter'
-import { Container } from '../styled-components'
+import { Container } from '../components-styled'
 import 'prismjs/themes/prism.css'
 import './app.css'
 import './gridlover.css'
+import bowser from 'bowser';
 
 const TemplateWrapper = ({ children, data }) => (
   <div>
@@ -34,6 +35,7 @@ const TemplateWrapper = ({ children, data }) => (
       <DCFooter
         version={data.site.siteMetadata.version}
         date={data.site.siteMetadata.date}
+        browser={bowser}
       />
     </div>
   </div>

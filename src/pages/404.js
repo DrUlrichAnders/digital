@@ -1,12 +1,13 @@
-import React from 'react'
-import { Container, Img, Section } from '../styled-components'
+import React from "react"
+import { Container, Img, Section } from "../components-styled"
 
-import img06 from '../img/1200/06.jpg'
+import img from "../img"
+import DCPicture from "../components/DCPicture"
 
 const NotFoundPage = () => (
   <Container>
     <Section>
-      <Img src={img06} alt="" />
+      <DCPicture img={img["06"]} />
       <h1>NOT FOUND</h1>
       <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
     </Section>

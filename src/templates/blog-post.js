@@ -1,5 +1,5 @@
 import React from 'react'
-import { Article, H2, Section } from '../styled-components'
+import { Article, H2, Section } from '../components-styled'
 
 export default ({ data }) => {
   const post = data.markdownRemark

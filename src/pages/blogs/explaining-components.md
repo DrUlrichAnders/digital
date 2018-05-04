@@ -36,7 +36,7 @@ import {
   Nav,
   NavItem,
   StyledLink as Link,
-} from '../../styled-components'
+} from '../../components-styled'
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faBook from '@fortawesome/fontawesome-free-solid/faBook'
@@ -83,7 +83,7 @@ export default DCHeader
 ```
 
 Now, the components used in `DCHeader` have all been defined somewhere else. This is why they have been imported at the beginning of the file.
-Components can be imported from other packages or from your own folders. For instance, the component `FontAwesomeIcon` is imported from a package called `@fortawesome/react-fontawesome`. The component `Header` has been defined by myself and sits in a folder at `../../styled-components`.  
+Components can be imported from other packages or from your own folders. For instance, the component `FontAwesomeIcon` is imported from a package called `@fortawesome/react-fontawesome`. The component `Header` has been defined by myself and sits in a folder at `../../components-styled`.  
 
 As you can probably tell from the name of the folder `styled-components` the components I have defined myself have all received styling information. This means they have information about their background color, width, margin, padding, font-size, link color and so on. If you want to better understand the styling information look into the [CSS Cheat Sheet](/cheatsheets#css).
 

@@ -4,7 +4,7 @@ import {
   Img,
   Section,
   StyledFlex as Flex,
-} from '../styled-components'
+} from '../components-styled'
 import { Box } from 'grid-styled'
 
 const ImprintPage = () => (

@@ -1,20 +1,21 @@
-import React from 'react'
-import DCPerson from '../components/DCPerson'
+import React from "react"
+import DCPerson from "../components/DCPerson"
 import {
   Container,
   Img,
   Section,
-  StyledFlex as Flex,
-} from '../styled-components'
-import { Box } from 'grid-styled'
+  StyledFlex as Flex
+} from "../components-styled"
+import { Box } from "grid-styled"
 
-import img03 from '../img/1200/03.jpg'
-import imgDrUlrichAnders from '../img/0400/DrUlrichAnders.jpg'
+import img from "../img"
+import DCPicture from "../components/DCPicture"
+import imgDrUlrichAnders from "../img/0400/DrUlrichAnders.jpg"
 
 const AboutPage = () => (
   <Container>
     <Section>
-      <Img src={img03} alt="" />
+      <DCPicture img={img["03"]} />
       <h2>About</h2>
       <p>This page was constructed by...</p>
       <Flex>

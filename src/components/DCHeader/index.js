@@ -8,7 +8,7 @@ import {
   Nav,
   NavItem,
   StyledLink as Link,
-} from '../../styled-components'
+} from '../../components-styled'
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faBook from '@fortawesome/fontawesome-free-solid/faBook'

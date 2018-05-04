@@ -9,7 +9,7 @@ import {
   ImgPerson,
   StyledLink as Link,
   ImgCaption,
-} from '../../styled-components'
+} from '../../components-styled'
 
 const DCPerson = props => (
   <div>

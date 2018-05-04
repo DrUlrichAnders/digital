@@ -5,7 +5,7 @@ import {
   Img,
   Section,
   StyledFlex as Flex,
-} from '../styled-components'
+} from '../components-styled'
 import { Box } from 'grid-styled'
 
 import imgHTML from '../img/1024/HTML_CHEAT_SHEET.png'

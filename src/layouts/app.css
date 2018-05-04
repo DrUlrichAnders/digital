@@ -15,3 +15,21 @@ svg {
 :not(pre) > code[class*="language-"] {
   white-space: nowrap;
 }
+
+.blur-up .lazyload,
+.blur-up .lazyloaded {
+	filter: blur(5px);
+	transition: filter 400ms;
+}
+
+.lazyloaded {
+	filter: blur(0);
+}
+
+picture {
+  display: flex;
+  flex-direction: column;
+  display: content;
+  background: #484848;
+  width: 100%;
+}

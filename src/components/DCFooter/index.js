@@ -3,7 +3,7 @@ import {
   Footer,
   FooterSection,
   StyledLink as Link,
-} from '../../styled-components'
+} from '../../components-styled'
 
 const DCFooter = props => (
   <Footer>
@@ -13,6 +13,7 @@ const DCFooter = props => (
         <Link to="/imprint">Imprint</Link>
         <br /> Version {props.version}
         <br /> Revision {props.date}
+        <p>Browser: {props.browser.name} {props.browser.version}</p>
       </div>
     </FooterSection>
   </Footer>
