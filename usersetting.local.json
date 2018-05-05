@@ -1,0 +1,22 @@
+{
+  "git.ignoreMissingGitWarning": true,
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.renderIndentGuides": false,
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.startupEditor": "newUntitledFile",
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "prettier.eslintIntegration": true,
+  "prettier.semi": false,
+  "prettier.proseWrap": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 0,
+  "eslint.packageManager": "npm"
+}
