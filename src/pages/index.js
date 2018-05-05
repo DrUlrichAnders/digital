@@ -3,9 +3,7 @@ import Link from "gatsby-link"
 import {
   Container,
   StyledFlex as Flex,
-  Img,
   Picture,
-  Source,
   Section,
   Hr
 } from "../components-styled"
@@ -309,19 +307,7 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <Picture>
-        <Source
-          media={"(min-width: 800px)"}
-          srcSet={img["09"]["0100"]["16x9"]}
-          data-srcset={img["09"]["1200"]["16x9"]}
-        />
-        <Img
-          data-sizes="100vw"
-          src={img["09"]["0100"]["16x9"]}
-          className="lazyload blur-up"
-          alt={"img09"}
-        />
-      </Picture>
+      <DCPicture img={img["09"]} />
       <h2 id="scrum">Small Projects Realised with SCRUM</h2>
       <p>
         We will achieve some of our objectives by help of organising ourselves
