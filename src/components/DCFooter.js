@@ -3,7 +3,7 @@ import {
   Footer,
   FooterSection,
   StyledLink as Link,
-} from '../../components-styled'
+} from '../components-styled'
 
 const DCFooter = props => (
   <Footer>

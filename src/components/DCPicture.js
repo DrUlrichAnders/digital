@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Picture, Source, Img } from "../../components-styled"
+import { Picture, Source, Img } from "../components-styled"
 
 class DCPicture extends React.Component {
   render() {
