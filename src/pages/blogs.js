@@ -1,6 +1,6 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import { Section } from '../components-styled'
+import React from "react"
+import Link from "gatsby-link"
+import { Section } from "../components-styled"
 
 export default ({ data }) => {
   return (
@@ -22,7 +22,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
       totalCount
       edges {
         node {
