@@ -13,6 +13,10 @@ export const Container = styled.div`
   padding: 0;
 `
 
+export const FlexStyled = styled(Flex)`
+  flex-wrap: wrap;
+`
+
 export const Footer = styled.footer`
   background: #8f8978;
   height: 600px;
@@ -21,6 +25,7 @@ export const Footer = styled.footer`
 
 export const FooterSection = styled.div`
   display: flex;
+  align-items: baseline;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
@@ -47,6 +52,7 @@ export const HeaderSection = styled.section`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: baseline;
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 0.5rem;
@@ -82,12 +88,10 @@ export const ImgCaption = styled.div`
 
 export const LinkStyled = styled(Link)`
   color: #fff;
-  align-self: baseline;
 `
 
 export const LinkFooterStyled = styled(Link)`
   color: inherit;
-  align-self: baseline;
 `
 
 export const LogoBrand = styled.span`
@@ -106,9 +110,7 @@ export const LogoText = styled.span`
   text-decoration: none;
 `
 
-export const Nav = styled.nav`
-  align-self: baseline;
-`
+export const Nav = styled.nav``
 
 export const NavItem = styled.span`
   font-size: 1rem;
@@ -125,8 +127,4 @@ export const Section = styled.section`
 export const Source = styled.source`
   margin-bottom: 0;
   width: 100%;
-`
-
-export const FlexStyled = styled(Flex)`
-  flex-wrap: wrap;
 `
