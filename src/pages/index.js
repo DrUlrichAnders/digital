@@ -2,7 +2,7 @@ import React from "react"
 import Link from "gatsby-link"
 import {
   Container,
-  StyledFlex as Flex,
+  FlexStyled as Flex,
   Picture,
   Section,
   Hr
@@ -21,6 +21,10 @@ const IndexPage = () => (
         This website tells you more about the course Digital Network Economy.
         The course is taught at{" "}
         <a href="https://cbs.de/">Cologne Business School</a>.
+      </p>
+      <p>
+        Elements of this website are programmed in class. Of course this website
+        is <em>responsive</em>.
       </p>
     </Section>
 

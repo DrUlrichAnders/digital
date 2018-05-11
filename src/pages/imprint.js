@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react"
 import {
   Container,
   Img,
   Section,
-  StyledFlex as Flex,
-} from '../components-styled'
-import { Box } from 'grid-styled'
+  FlexStyled as Flex
+} from "../components-styled"
+import { Box } from "grid-styled"
 
 const ImprintPage = () => (
   <Container>

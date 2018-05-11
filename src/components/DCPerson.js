@@ -7,7 +7,7 @@ import {
   Nav,
   NavItem,
   ImgPerson,
-  StyledLink as Link,
+  LinkStyled as Link,
   ImgCaption,
 } from '../components-styled'
 

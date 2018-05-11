@@ -1,6 +1,6 @@
-import styled from 'styled-components'
-import Link from 'gatsby-link'
-import { Flex } from 'grid-styled'
+import styled from "styled-components"
+import Link from "gatsby-link"
+import { Flex } from "grid-styled"
 
 export const Article = styled.article`
   margin: 1.5rem 0;
@@ -64,11 +64,6 @@ export const Img = styled.img`
   width: 100%;
 `
 
-export const Source = styled.source`
-  margin-bottom: 0;
-  width: 100%;
-`
-
 export const Picture = styled.picture`
   margin-bottom: 0;
   width: 100%;
@@ -85,9 +80,19 @@ export const ImgCaption = styled.div`
   text-align: center;
 `
 
+export const LinkStyled = styled(Link)`
+  color: #fff;
+  align-self: baseline;
+`
+
+export const LinkFooterStyled = styled(Link)`
+  color: inherit;
+  align-self: baseline;
+`
+
 export const LogoBrand = styled.span`
   color: #fff;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 2.3888889rem;
   line-height: 3rem;
   text-decoration: none;
@@ -117,11 +122,11 @@ export const Section = styled.section`
   }
 `
 
-export const StyledLink = styled(Link)`
-  color: #fff;
-  align-self: baseline;
+export const Source = styled.source`
+  margin-bottom: 0;
+  width: 100%;
 `
 
-export const StyledFlex = styled(Flex)`
+export const FlexStyled = styled(Flex)`
   flex-wrap: wrap;
 `

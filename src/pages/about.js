@@ -4,7 +4,7 @@ import {
   Container,
   Img,
   Section,
-  StyledFlex as Flex
+  FlexStyled as Flex
 } from "../components-styled"
 import { Box } from "grid-styled"
 
