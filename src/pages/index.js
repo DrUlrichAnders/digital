@@ -58,8 +58,8 @@ const IndexPage = () => (
         <Box width={[1, 1 / 2]} pr={[0, 1]}>
           <ol>
             <li>
-              <strong>Process mapping skills:</strong> map process, understand
-              data flow, value stream mapping
+              <strong>Process mapping skills:</strong> map processes, understand
+              data flows, value-stream mapping
             </li>
             <li>
               <strong>IT-skills:</strong> programming, IT-infrastructure,
