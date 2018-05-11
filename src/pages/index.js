@@ -58,6 +58,10 @@ const IndexPage = () => (
         <Box width={[1, 1 / 2]} pr={[0, 1]}>
           <ol>
             <li>
+              <strong>Process mapping skills:</strong> map process, understand
+              data flow, value stream mapping
+            </li>
+            <li>
               <strong>IT-skills:</strong> programming, IT-infrastructure,
               security
             </li>
@@ -72,7 +76,7 @@ const IndexPage = () => (
           </ol>
         </Box>
         <Box width={[1, 1 / 2]} pl={[0, 1]}>
-          <ol start="7">
+          <ol start="5">
             <li>
               <strong>Marketing skills:</strong> presentation, video, story
               telling, influencing, (personal) networking
