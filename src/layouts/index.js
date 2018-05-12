@@ -1,14 +1,14 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from "react"
+import PropTypes from "prop-types"
+import Helmet from "react-helmet"
 
-import DCHeader from '../components/DCHeader'
-import DCFooter from '../components/DCFooter'
-import { Container } from '../components-styled'
-import 'prismjs/themes/prism.css'
-import './app.css'
-import './gridlover.css'
-import bowser from 'bowser';
+import DCHeader from "../components/DCHeader"
+import DCFooter from "../components/DCFooter"
+import { Container } from "../components-styled"
+import "prismjs/themes/prism.css"
+import "./app.css"
+import "./gridlover.css"
+import bowser from "bowser"
 
 const TemplateWrapper = ({ children, data }) => (
   <div>
@@ -16,15 +16,15 @@ const TemplateWrapper = ({ children, data }) => (
       title="Digital Network Economy"
       meta={[
         {
-          name: 'description',
+          name: "description",
           content:
-            'This website informs about the content of the Digital Network Economy class at Cologne Business School.',
+            "This website informs about the content of the Digital Network Economy class at Cologne Business School."
         },
         {
-          name: 'keywords',
+          name: "keywords",
           content:
-            'CBS, Dr. Ulrich Anders, DNE, Digital Network Economy, Storytelling, Pitchdeck',
-        },
+            "CBS, Dr. Ulrich Anders, DNE, Digital Network Economy, Storytelling, Pitchdeck"
+        }
       ]}
     >
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -42,7 +42,7 @@ const TemplateWrapper = ({ children, data }) => (
 )
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.func
 }
 
 export default TemplateWrapper
