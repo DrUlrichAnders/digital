@@ -311,7 +311,7 @@ const IndexPage = () => (
       <p>
         There are more and more paid streams such as Spotify, Netflix or
         podcasts. This means classical television or radio advertising will not
-        longer reach its audiency like in the past. Companies will need to move
+        longer reach its audience like in the past. Companies will need to move
         into video messaging with good content to attract or inform its
         customers.
       </p>
@@ -350,13 +350,16 @@ const IndexPage = () => (
               themselves.
             </li>
             <li>Make your voice loud, intensive and articulate enough.</li>
-            <li>Don't speak too fast (people cannot follow).</li>
+            <li>
+              Don't speak too fast (especially if the topic is complicated
+              people may not follow).
+            </li>
             <li>
               Vary background sounds and align them to the topic. Let music fade
               in or out.
             </li>
             <li>
-              Don't make the background sounds too loud, so that people have
+              Don't make the background music too loud, so that people have
               difficulties hearing the narration.
             </li>
             <li>
