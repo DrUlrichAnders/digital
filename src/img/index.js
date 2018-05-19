@@ -33,6 +33,4 @@ for (let i = 0; i < images.length; i++) {
 
 img.resolutions = resolutions
 
-console.log(img)
-
 export default img
