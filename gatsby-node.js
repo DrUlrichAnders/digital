@@ -8,7 +8,7 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
     createNodeField({
       node,
       name: `slug`,
-      value: slug,
+      value: slug
     })
   }
 }
@@ -35,11 +35,20 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           component: path.resolve(`./src/templates/blog-post.js`),
           context: {
             // Data passed to context is available in page queries as GraphQL variables.
-            slug: node.fields.slug,
-          },
+            slug: node.fields.slug
+          }
         })
       })
       resolve()
     })
   })
 }
+
+// exports.modifyWebpackConfig = ({ config, stage }) => {
+//   if (stage === "build-html") {
+//     config.loader("null", {
+//       test: /lazysizes/,
+//       loader: "null-loader"
+//     })
+//   }
+// }

@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## [v1.4.0] - 2018-05-19
+
+- added data-protection
+- added react-cookie-consent
+
 ## [v1.3.0] - 2018-05-03
 
 - updated dependencies
