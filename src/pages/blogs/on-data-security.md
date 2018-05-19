@@ -4,7 +4,7 @@ author: "Dr. Ulrich Anders"
 date: "2018-04-15"
 ---
 
-![We are open](../../img/1200/13.jpg)
+![We are open](../../img/1200/16x9/13.jpg)
 
 Customers used to pay with money. But nowadays many app or web services are
 seemingly for free. But they are not really free. No, such services customers

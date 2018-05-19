@@ -51,7 +51,7 @@ current website, or to copy and taylor it for your own use.
   computer. In order to preview the website that you are editing, go to
   [http://localhost:8000](http://localhost:8000).
 
-![GitHubDesktop](../../img/1200/21.jpg)
+![GitHubDesktop](../../img/1200/16x9/21.jpg)
 
 ### **Step 3**: Start editing
 
