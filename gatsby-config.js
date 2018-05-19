@@ -5,7 +5,7 @@ module.exports = {
     title: "DNE",
     version: "1.4.0",
     date: moment().format("MMM DD, YYYY (HH:mm)"),
-    siteUrl: "https://drulrichanders.github.io"
+    siteUrl: "http://dne.netlify.com"
   },
   plugins: [
     "gatsby-image",
