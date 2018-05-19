@@ -19,7 +19,7 @@ export const FlexStyled = styled(Flex)`
 
 export const Footer = styled.footer`
   background: #8f8978;
-  height: 200px;
+  height: 140px;
   padding: 27px 0;
 `
 
