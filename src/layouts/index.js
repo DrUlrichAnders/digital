@@ -31,8 +31,8 @@ const TemplateWrapper = ({ children, data }) => (
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     </Helmet>
     <div>
-      {/* {Cookies.remove("DNEGithubCom")} */}
-      <CookieConsent cookieName="DNEGithubCom">
+      {/* {Cookies.remove("dneNetlifyCom")} */}
+      <CookieConsent cookieName="dneNetlifyCom">
         This website uses cookies to enhance the user experience.
       </CookieConsent>
       <DCHeader />
