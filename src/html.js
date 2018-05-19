@@ -1,5 +1,4 @@
-import React from 'react'
-// import lazysizes from 'lazysizes'
+import React from "react"
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -32,7 +31,7 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.headComponents}
           {css}
-          <script src = "lazysizes.min.js" async />
+          <script src="lazysizes.min.js" async />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

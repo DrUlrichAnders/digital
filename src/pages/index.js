@@ -18,8 +18,9 @@ const IndexPage = () => (
     <Section>
       <h1 id="dne">Digital Network Economy</h1>
       <p>
-        This website tells you more about the course Digital Network Economy.
-        The course is taught at{" "}
+        This website is a personal and non-commercial website of Dr. Ulrich
+        Anders for the purpose of teaching the course{" "}
+        <em>Digital Network Economy</em>. The course is taught at{" "}
         <a href="https://cbs.de/" target="_blank">
           Cologne Business School
         </a>.

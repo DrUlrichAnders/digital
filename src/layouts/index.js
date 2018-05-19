@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
+import CookieConsent, { Cookies } from "react-cookie-consent"
 
 import DCHeader from "../components/DCHeader"
 import DCFooter from "../components/DCFooter"
@@ -18,7 +19,7 @@ const TemplateWrapper = ({ children, data }) => (
         {
           name: "description",
           content:
-            "This website informs about the content of the Digital Network Economy class at Cologne Business School."
+            "This website is a non-commercial website for educational purposes. It informs about the content of the Digital Network Economy class at Cologne Business School."
         },
         {
           name: "keywords",
@@ -28,8 +29,13 @@ const TemplateWrapper = ({ children, data }) => (
       ]}
     >
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+      <script src="lazysizes.min.js" async />
     </Helmet>
     <div>
+      {/* {Cookies.remove("DNEGithubCom")} */}
+      <CookieConsent cookieName="DNEGithubCom">
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
       <DCHeader />
       <Container>{children()}</Container>
       <DCFooter
