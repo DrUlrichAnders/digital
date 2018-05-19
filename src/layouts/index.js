@@ -29,7 +29,6 @@ const TemplateWrapper = ({ children, data }) => (
       ]}
     >
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-      <script src="lazysizes.min.js" async />
     </Helmet>
     <div>
       {/* {Cookies.remove("DNEGithubCom")} */}
