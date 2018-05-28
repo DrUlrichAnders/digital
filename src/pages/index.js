@@ -221,7 +221,7 @@ const IndexPage = () => (
           </ol>
         </Box>
         <Box width={[1, 1 / 2]} pl={[0, 4]}>
-          <ol start="13">
+          <ol start="6">
             <li>
               <a
                 href="https://www.youtube.com/watch?v=Nj-hdQMa3uA"
