@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import CookieConsent, { Cookies } from "react-cookie-consent"
+import CookieConsent, { Cookies } from "../components/CookieConsent"
 
 import DCHeader from "../components/DCHeader"
 import DCFooter from "../components/DCFooter"
@@ -33,7 +33,8 @@ const TemplateWrapper = ({ children, data }) => (
     <div>
       {/* {Cookies.remove("dneNetlifyCom")} */}
       <CookieConsent cookieName="dneNetlifyCom">
-        This website uses cookies to enhance the user experience.
+        This website uses cookies for administrative purposes and to enhance the
+        user experience. By using this website you agree to their application.
       </CookieConsent>
       <DCHeader />
       <Container>{children()}</Container>

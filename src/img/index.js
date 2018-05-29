@@ -31,6 +31,6 @@ for (let i = 0; i < images.length; i++) {
   }
 }
 
-img.resolutions = resolutions
+// img.resolutions = resolutions
 
 export default img
