@@ -36,12 +36,12 @@ class CookieConsent extends Component {
         boxShadow: "none",
         color: "black",
         flex: "0 0 auto",
-        marginRight: ".5em",
+        margin: ".5em",
         padding: "5px 10px"
       },
       contentStyle: {
         flex: "1 0 300px",
-        marginRight: ".5em"
+        margin: ".5em"
       }
     }
   }
