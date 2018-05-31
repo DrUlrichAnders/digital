@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import CookieConsent, { Cookies } from "../components/CookieConsent"
+import CookieConsent from "react-cookie-consent"
 
 import DCHeader from "../components/DCHeader"
 import DCFooter from "../components/DCFooter"
