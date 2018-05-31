@@ -22,16 +22,15 @@ class CookieConsent extends Component {
         background: "#353535",
         color: "white",
         display: "flex",
-        flexWrap: "wrap",
         justifyContent: "space-between",
         left: "0",
+        padding: "15px",
         position: "fixed",
         width: "100%",
         zIndex: "999"
       },
       contentStyle: {
-        flex: "1 0 300px",
-        margin: ".5rem"
+        marginRight: "15px"
       },
       buttonStyle: {
         background: "#ffd42d",
@@ -40,7 +39,6 @@ class CookieConsent extends Component {
         boxShadow: "none",
         color: "black",
         flex: "0 0 auto",
-        margin: ".5rem",
         padding: "5px 10px"
       }
     }
