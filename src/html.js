@@ -11,6 +11,7 @@ if (process.env.NODE_ENV === `production`) {
 
 module.exports = class HTML extends React.Component {
   render() {
+    let emptyObject = {}
     let css
     if (process.env.NODE_ENV === `production`) {
       css = (
@@ -31,7 +32,11 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.headComponents}
           {css}
-          <script src="/lazysizes.min.js" async />
+          <script>
+            {`window.lazySizesConfig = window.lazySizesConfig || {}; window.lazySizesConfig.init = false;`}
+          </script>
+          <script src="/lazysizes.min.js" />
+          <script>lazySizes.init();</script>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
