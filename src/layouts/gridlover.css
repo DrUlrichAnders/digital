@@ -138,7 +138,7 @@ i {
 p,
 li,
 pre,
-pre[class*='language-'],
+pre[class*="language-"],
 table,
 blockquote {
   margin-top: 0rem;
@@ -161,6 +161,7 @@ hr,
 .hr {
   border: 1px solid;
   margin: -1px 0;
+  height: 0;
 }
 
 a,
