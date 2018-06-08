@@ -10,13 +10,21 @@ import {
 
 import { Box } from "grid-styled"
 
+import FontAwesomeIcon from "@fortawesome/react-fontawesome"
+import faLink from "@fortawesome/fontawesome-free-solid/faLink"
+
 import img from "../img"
 import DCPicture from "../components/DCPicture"
 
 const IndexPage = () => (
   <Container>
     <Section>
-      <h1 id="dne">Digital Network Economy</h1>
+      <h1 id="dne">
+        Digital Network Economy{" "}
+        <a href="/#dne">
+          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+        </a>
+      </h1>
       <p>
         This website is a personal and non-commercial website of Dr. Ulrich
         Anders for the purpose of teaching the course{" "}
@@ -36,7 +44,12 @@ const IndexPage = () => (
     <Section>
       <DCPicture img={img["08"]} />
 
-      <h2 id="future-of-work">The Future of Work</h2>
+      <h2 id="future-of-work">
+        The Future of Work{" "}
+        <a href="/#future-of-work">
+          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+        </a>
+      </h2>
       <p>
         The more digitalized our world becomes, the more it is going to change.
         Which jobs will still exist in the future, which are going to change and
@@ -56,7 +69,12 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["12"]} />
-      <h2 id="digital-skills">Digital Skills</h2>
+      <h2 id="digital-skills">
+        Digital Skills{" "}
+        <a href="/#digital-skills">
+          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+        </a>
+      </h2>
       <p>
         The world becomes digital &mdash; no doubt about it. With the ever
         increasing spread of data there is also an acceleration of knowledge.
@@ -118,7 +136,12 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["04"]} />
-      <h2 id="pitch-deck">Pitch Decks</h2>
+      <h2 id="pitch-decks">
+        Pitch Decks{" "}
+        <a href="/#pitch-decks">
+          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+        </a>
+      </h2>
       <p>
         A lot has been said about pitch decks. Understanding the concept and the
         logic of a pitch deck and being able to produce one is actually
@@ -156,7 +179,12 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["01"]} />
-      <h2 id="story-telling">Story Telling</h2>
+      <h2 id="story-telling">
+        Story Telling{" "}
+        <a href="/#story-telling">
+          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+        </a>
+      </h2>
       <p>
         Story telling is a significant skill. It enables you to market your
         ideas, companies, products or convictions. The more digital and complex
@@ -308,7 +336,12 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["14"]} />
-      <h2 id="video-skills">The importance of video skills</h2>
+      <h2 id="video-skills">
+        The importance of video skills{" "}
+        <a href="/#video-skills">
+          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+        </a>
+      </h2>
       <p>
         There are more and more paid streams such as Spotify, Netflix or
         podcasts. This means classical television or radio advertising will not
@@ -412,7 +445,12 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["05"]} />
-      <h2 id="website-programming">Website Programming</h2>
+      <h2 id="website-programming">
+        Website Programming{" "}
+        <a href="/#website-programming">
+          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+        </a>
+      </h2>
       <Flex>
         <Box width={[1, 1 / 2]}>
           <p>We are building a website with</p>
@@ -526,7 +564,12 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["07"]} />
-      <h2 id="github">GitHub</h2>
+      <h2 id="github">
+        GitHub{" "}
+        <a href="/#github">
+          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+        </a>
+      </h2>
       <p>
         GitHub is a plattform to exchange software based on the exceptionally
         well thought out versioning software named <em>git</em>. But GitHub is
@@ -556,7 +599,12 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["09"]} />
-      <h2 id="scrum">Small Projects Realized with SCRUM</h2>
+      <h2 id="scrum">
+        Small Projects Realized with SCRUM{" "}
+        <a href="/#scrum">
+          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+        </a>
+      </h2>
       <p>
         We will achieve some of our objectives by help of organising ourselves
         in an agile manner.
