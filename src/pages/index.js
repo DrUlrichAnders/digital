@@ -1,5 +1,8 @@
 import React from "react"
 import Link from "gatsby-link"
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 import {
   Container,
   FlexStyled as Flex,
@@ -10,9 +13,6 @@ import {
 
 import { Box } from "grid-styled"
 
-import FontAwesomeIcon from "@fortawesome/react-fontawesome"
-import faLink from "@fortawesome/fontawesome-free-solid/faLink"
-
 import img from "../img"
 import DCPicture from "../components/DCPicture"
 
@@ -22,7 +22,7 @@ const IndexPage = () => (
       <h1 id="dne">
         Digital Network Economy{" "}
         <a href="/#dne">
-          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h1>
       <p>
@@ -47,7 +47,7 @@ const IndexPage = () => (
       <h2 id="future-of-work">
         The Future of Work{" "}
         <a href="/#future-of-work">
-          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h2>
       <p>
@@ -72,7 +72,7 @@ const IndexPage = () => (
       <h2 id="digital-skills">
         Digital Skills{" "}
         <a href="/#digital-skills">
-          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h2>
       <p>
@@ -139,7 +139,7 @@ const IndexPage = () => (
       <h2 id="pitch-decks">
         Pitch Decks{" "}
         <a href="/#pitch-decks">
-          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h2>
       <p>
@@ -182,7 +182,7 @@ const IndexPage = () => (
       <h2 id="story-telling">
         Story Telling{" "}
         <a href="/#story-telling">
-          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h2>
       <p>
@@ -339,7 +339,7 @@ const IndexPage = () => (
       <h2 id="video-skills">
         The importance of video skills{" "}
         <a href="/#video-skills">
-          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h2>
       <p>
@@ -448,7 +448,7 @@ const IndexPage = () => (
       <h2 id="website-programming">
         Website Programming{" "}
         <a href="/#website-programming">
-          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h2>
       <Flex>
@@ -567,7 +567,7 @@ const IndexPage = () => (
       <h2 id="github">
         GitHub{" "}
         <a href="/#github">
-          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h2>
       <p>
@@ -602,7 +602,7 @@ const IndexPage = () => (
       <h2 id="scrum">
         Small Projects Realized with SCRUM{" "}
         <a href="/#scrum">
-          <FontAwesomeIcon icon={faLink} size="xs" color="lightgray" />
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h2>
       <p>

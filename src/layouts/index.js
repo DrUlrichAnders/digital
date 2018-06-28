@@ -11,6 +11,19 @@ import "./app.css"
 import "./gridlover.css"
 import bowser from "bowser"
 
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faGem,
+  faLink,
+  faBook,
+  faCoffee,
+  faQuestionCircle,
+  faInfoCircle
+} from "@fortawesome/free-solid-svg-icons"
+
+library.add(faGem, faLink, faBook, faCoffee, faQuestionCircle, faInfoCircle)
+
 const TemplateWrapper = ({ children, data }) => (
   <div>
     <Helmet
