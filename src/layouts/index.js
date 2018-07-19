@@ -41,6 +41,7 @@ const TemplateWrapper = ({ children, data }) => (
         }
       ]}
     >
+      <html lang="en" />
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     </Helmet>
     <div>
