@@ -2,7 +2,7 @@ import Typography from "typography"
 
 const typography = new Typography({
   includeNormalize: true,
-  omitGoogleFont: false,
+  omitGoogleFont: true,
   googleFonts: [
     {
       name: "Ubuntu",
