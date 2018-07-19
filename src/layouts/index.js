@@ -38,12 +38,15 @@ const TemplateWrapper = ({ children, data }) => (
           name: "keywords",
           content:
             "CBS, Dr. Ulrich Anders, DNE, Digital Network Economy, Storytelling, Pitchdeck"
+        },
+        {
+          name: "theme-color",
+          content: "#8F8978"
         }
       ]}
     >
       <html lang="en" />
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-      <meta name="theme-color" content="#8F8978" />
     </Helmet>
     <div>
       <CookieConsent cookieName="dneNetlifyCom">
