@@ -1,4 +1,5 @@
 @font-face {
+  font-display: auto;
   font-family: "Ubuntu";
   src: url("/fonts/ubuntu-regular-webfont.woff2") format("woff2"),
     url("/fonts/ubuntu-regular-webfont.woff") format("woff");
@@ -7,6 +8,7 @@
 }
 
 @font-face {
+  font-display: auto;
   font-family: "Open Sans";
   src: url("/fonts/opensans-regular-webfont.woff2") format("woff2"),
     url("/fonts/opensans-regular-webfont.woff") format("woff");
@@ -15,6 +17,7 @@
 }
 
 @font-face {
+  font-display: auto;
   font-family: "Roboto";
   src: url("/fonts/roboto-regular-webfont.woff2") format("woff2"),
     url("/fonts/roboto-regular-webfont.woff") format("woff");
