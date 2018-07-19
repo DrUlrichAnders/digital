@@ -5,7 +5,7 @@ module.exports = {
     title: "DNE",
     version: "1.4.0",
     date: moment()
-      .local()
+      .add(2, "hours")
       .format("MMM DD, YYYY (HH:mm)"),
     siteUrl: "https://dne.netlify.com"
   },
