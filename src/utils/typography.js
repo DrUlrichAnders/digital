@@ -9,6 +9,10 @@ const typography = new Typography({
       styles: ["400"]
     },
     {
+      name: "Roboto",
+      styles: ["400"]
+    },
+    {
       name: "Open Sans",
       styles: ["400"]
     }
