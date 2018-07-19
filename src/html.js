@@ -31,12 +31,8 @@ module.exports = class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           {this.props.headComponents}
+          <script src="/lazysizes.min.js" async="" />
           {css}
-          <script>
-            {`window.lazySizesConfig = window.lazySizesConfig || {}; window.lazySizesConfig.init = false;`}
-          </script>
-          <script src="/lazysizes.min.js" />
-          <script>lazySizes.init();</script>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
