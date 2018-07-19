@@ -1,2 +1,3 @@
 # my manually set redirects
 http://dne.netlify.com  https://dne.netlify.com
+/                       https://dne.netlify.com

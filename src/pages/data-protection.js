@@ -101,8 +101,8 @@ const DataProtectionPage = () => (
       <p>
         We reserve the right to change this privacy policy. The current version
         of the privacy policy is available at{" "}
-        <a href="http://drulrichanders.github.io/data-protection">
-          http://drulrichanders.github.io/data-protection
+        <a href="http://dne.netlify.com/data-protection">
+          http://dne.netlify.com/data-protection
         </a>.
       </p>
       <h3>Inquires</h3>
