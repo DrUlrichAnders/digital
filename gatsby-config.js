@@ -13,7 +13,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-react-next",
     "gatsby-plugin-styled-components",
-    "gatsby-plugin-offline",
     {
       resolve: `gatsby-plugin-typography`,
       options: {
