@@ -29,7 +29,7 @@ const IndexPage = () => (
         This website is a personal and non-commercial website of Dr. Ulrich
         Anders for the purpose of teaching the course{" "}
         <em>Digital Network Economy</em>. The course is taught at{" "}
-        <a href="https://cbs.de/" target="_blank">
+        <a href="https://cbs.de/" target="_blank" rel="noopener">
           Cologne Business School
         </a>.
       </p>
@@ -210,6 +210,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=YbV3b-l1sZs"
                 target="_blank"
+                rel="noopener"
               >
                 Andrew Stanton: The clues to a great story
               </a>
@@ -218,6 +219,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=YbV3b-l1sZs"
                 target="_blank"
+                rel="noopener"
               >
                 Garr Reynolds: Why storytelling matters
               </a>
@@ -226,6 +228,7 @@ const IndexPage = () => (
               <a
                 href="https://www.ted.com/talks/j_j_abrams_mystery_box"
                 target="_blank"
+                rel="noopener"
               >
                 J.J. Abrams: The mystery box
               </a>
@@ -234,6 +237,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=sh1-9xMZIfQ"
                 target="_blank"
+                rel="noopener"
               >
                 Andrea Gibbs: The power of storytelling
               </a>
@@ -242,6 +246,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=wgeh4xhSA2Q"
                 target="_blank"
+                rel="noopener"
               >
                 Donald Davis: How the story transforms the teller
               </a>
@@ -254,6 +259,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=Nj-hdQMa3uA"
                 target="_blank"
+                rel="noopener"
               >
                 David JP Phillips: The magical science of storytelling
               </a>
@@ -262,6 +268,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=al3-Kl4BDUQ"
                 target="_blank"
+                rel="noopener"
               >
                 Julian Friedmann: The mystery of storytelling
               </a>
@@ -270,6 +277,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=RoEEDKwzNBw"
                 target="_blank"
+                rel="noopener"
               >
                 Tyler Cowen: Be suspicious of stories
               </a>
@@ -278,6 +286,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=xOTZfGyVh1I"
                 target="_blank"
+                rel="noopener"
               >
                 Veit Etzold: Die Kunst des Storytelling
               </a>
@@ -456,58 +465,91 @@ const IndexPage = () => (
           <p>We are building a website with</p>
           <ul>
             <li>
-              <a href="https://reactjs.org/" target="_blank">
+              <a href="https://reactjs.org/" target="_blank" rel="noopener">
                 React
               </a>
             </li>
             <li>
-              <a href="https://gatsbyjs.org/" target="_blank">
+              <a href="https://gatsbyjs.org/" target="_blank" rel="noopener">
                 Gatsby
               </a>
             </li>
             <li>
-              <a href="https://www.styled-components.com/" target="_blank">
+              <a
+                href="https://www.styled-components.com/"
+                target="_blank"
+                rel="noopener"
+              >
                 Styled-Components
               </a>
             </li>
             <li>
-              <a href="https://github.com/jxnblk/grid-styled" target="_blank">
+              <a
+                href="https://github.com/jxnblk/grid-styled"
+                target="_blank"
+                rel="noopener"
+              >
                 grid-styled
               </a>
             </li>
             <li>
-              <a href="https://www.gridlover.net/" target="_blank">
+              <a
+                href="https://www.gridlover.net/"
+                target="_blank"
+                rel="noopener"
+              >
                 Gridlover
               </a>
             </li>
             <li>
-              <a href="https://fonts.google.com/" target="_blank">
+              <a
+                href="https://fonts.google.com/"
+                target="_blank"
+                rel="noopener"
+              >
                 Google Fonts
               </a>
             </li>
             <li>
-              <a href="https://fontawesome.com/cheatsheet" target="_blank">
+              <a
+                href="https://fontawesome.com/cheatsheet"
+                target="_blank"
+                rel="noopener"
+              >
                 Font Awesome
               </a>{" "}
               (
               <a
                 href="https://github.com/FortAwesome/react-fontawesome"
                 target="_blank"
+                rel="noopener"
               >
                 react-fontawesome
               </a>)
             </li>
             <li>
-              <a href="https://www.materialui.co/colors" target="_blank">
+              <a
+                href="https://www.materialui.co/colors"
+                target="_blank"
+                rel="noopener"
+              >
                 Material Design Colors
               </a>
             </li>
             <li>
-              <a href="https://github.com/explore" target="_blank">
+              <a
+                href="https://github.com/explore"
+                target="_blank"
+                rel="noopener"
+              >
                 GitHub
               </a>{" "}
               (
-              <a href="https://octoverse.github.com/" target="_blank">
+              <a
+                href="https://octoverse.github.com/"
+                target="_blank"
+                rel="noopener"
+              >
                 Octoverse
               </a>)
             </li>
@@ -517,28 +559,40 @@ const IndexPage = () => (
           <p>As pre-requisites you'll need:</p>
           <ul>
             <li>
-              <a href="https://nodejs.org/en/" target="_blank">
+              <a href="https://nodejs.org/en/" target="_blank" rel="noopener">
                 nodejs
               </a>
             </li>
             <li>
-              <a href="https://yarnpkg.com/lang/en/" target="_blank">
+              <a
+                href="https://yarnpkg.com/lang/en/"
+                target="_blank"
+                rel="noopener"
+              >
                 Yarn
               </a>
             </li>
             <li>
               {" "}
               GitHub (
-              <a href="https://git-scm.com/" target="_blank">
+              <a href="https://git-scm.com/" target="_blank" rel="noopener">
                 git
               </a>{" "}
               |{" "}
-              <a href="https://desktop.github.com/" target="_blank">
+              <a
+                href="https://desktop.github.com/"
+                target="_blank"
+                rel="noopener"
+              >
                 Desktop
               </a>)
             </li>
             <li>
-              <a href="https://code.visualstudio.com/" target="_blank">
+              <a
+                href="https://code.visualstudio.com/"
+                target="_blank"
+                rel="noopener"
+              >
                 Visual Studio Code
               </a>
               <br /> with these recommended extensions: Atom Keymap, Auto Close
@@ -551,7 +605,11 @@ const IndexPage = () => (
             </li>
             <li>
               Mac users will also need to install{" "}
-              <a href="https://developer.apple.com/xcode/" target="_blank">
+              <a
+                href="https://developer.apple.com/xcode/"
+                target="_blank"
+                rel="noopener"
+              >
                 Xcode
               </a>.
             </li>
@@ -575,7 +633,7 @@ const IndexPage = () => (
         well thought out versioning software named <em>git</em>. But GitHub is
         much more than this. It is probably THE go-to-place for most open source
         software projects. Have a look at the{" "}
-        <a href="https://octoverse.github.com/" target="_blank">
+        <a href="https://octoverse.github.com/" target="_blank" rel="noopener">
           GitHub Octoverse{" "}
         </a>{" "}
         to get an idea about the huge dimension and importance of GitHub.
@@ -589,7 +647,11 @@ const IndexPage = () => (
       </p>
       <p>
         By the way, the sources for this website are on{" "}
-        <a href="https://github.com/DrUlrichAnders/DNE" target="_blank">
+        <a
+          href="https://github.com/DrUlrichAnders/DNE"
+          target="_blank"
+          rel="noopener"
+        >
           https://github.com/DrUlrichAnders/DNE
         </a>. Contributions from CBS students are most welcome.
       </p>

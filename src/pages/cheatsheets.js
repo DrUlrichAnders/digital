@@ -26,11 +26,19 @@ const CheatsheetPage = () => (
       </p>
       <p>
         The permission to show the HTML and CSS you will find on{" "}
-        <a href="https://websitesetup.org/html5-cheat-sheet/" target="_blank">
+        <a
+          href="https://websitesetup.org/html5-cheat-sheet/"
+          target="_blank"
+          rel="noopener"
+        >
           html-cheat-sheet.html
         </a>{" "}
         and{" "}
-        <a href="https://websitesetup.org/css3-cheat-sheet/" target="_blank">
+        <a
+          href="https://websitesetup.org/css3-cheat-sheet/"
+          target="_blank"
+          rel="noopener"
+        >
           css-cheat-sheet.html
         </a>.
       </p>
@@ -44,6 +52,7 @@ const CheatsheetPage = () => (
         <a
           href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
           target="_blank"
+          rel="noopener"
         >
           Markdown cheatsheet
         </a>.

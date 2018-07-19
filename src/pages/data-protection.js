@@ -19,7 +19,7 @@ const DataProtectionPage = () => (
       <p>
         This site is a personal and non-commercial website organized and
         maintained by Dr. Ulrich Anders for the purpose of teaching at{" "}
-        <a href="https://cbs.de/" target="_blank">
+        <a href="https://cbs.de/" target="_blank" rel="noopener">
           Cologne Business School
         </a>. As such this site has no intention to gather and process any
         person-related data. Therefore this site in itself does not use Google
@@ -34,7 +34,7 @@ const DataProtectionPage = () => (
       <p>
         However, like all other websites this site is hosted by an internet
         provider. In the case of this site the internet provider is{" "}
-        <a href="https://netlify.com" target="_blank">
+        <a href="https://netlify.com" target="_blank" rel="noopener">
           netlify.com
         </a>. Netlify is using common internet technologies, such as cookies and
         web server logs for monitoring access to this website.
