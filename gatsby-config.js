@@ -23,6 +23,20 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Digital Network Economy",
+        short_name: "DNE",
+        description:
+          "This website is a non-commercial website for educational purposes.It informs about the content of the Digital Network Economy class at Cologne Business School.",
+        start_url: "/",
+        background_color: "#fff",
+        theme_color: "#8F8978",
+        display: "browser",
+        lang: "en-US"
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
