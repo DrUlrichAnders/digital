@@ -31,7 +31,8 @@ const IndexPage = () => (
         <em>Digital Network Economy</em>. The course is taught at{" "}
         <a href="https://cbs.de/" target="_blank" rel="noopener">
           Cologne Business School
-        </a>.
+        </a>
+        .
       </p>
       <p>
         Elements of this website are programmed in class. Of course this website
@@ -196,13 +197,58 @@ const IndexPage = () => (
         there certainly are stories which are <em>interesting</em> and which are{" "}
         <em>boring</em>.
       </p>
-      <h3>Some resources to learn about story telling</h3>
-
+      <h3>What a story is</h3>
+      <p>
+        »The anatomy of story« from John Truby is a classic and recommended
+        read. He defines story as: »A speaker tells a listener what someone did
+        to get what he wanted and why.« So story telling is about desire. It
+        tracks »what a person wants, what he'll do to get it, and what costs
+        he'll have to pay along the way.«
+      </p>
+      <p>
+        Truby goes on: »Good story telling lets the audience relive events in
+        the present so they can understand the forces, choices, and emotions
+        that led the character to do what he did.« And all the time the hero has
+        to struggle. »Any character who goes after a desire and is impeded is
+        forced to struggle (otherwise the story is over). An that struggle makes
+        him change.«
+      </p>
+      <p>
+        Finally, in good story telling, the author always puts a little mystory
+        element into it: »The author tells the audience certain information
+        about a made-up character and he withholds certain information. This
+        forces the audience to figure out who the character is and what he is
+        doing.«
+      </p>
+      <h3>The anatomy of story</h3>
+      <p>
+        According to John Truby every story consists of the following elements,
+        independent of whether or not they have been devised by the author:
+      </p>
+      <Flex>
+        <Box width={[1, 1 / 2]} pr={[0, 4]}>
+          <ol>
+            <li>Premise</li>
+            <li>Story structure</li>
+            <li>Character</li>
+            <li>Theme (moral argument)</li>
+            <li>Story world</li>
+          </ol>
+        </Box>
+        <Box width={[1, 1 / 2]} pl={[0, 4]}>
+          <ol start="6">
+            <li>Symbol Web</li>
+            <li>Plot</li>
+            <li>Scene weave</li>
+            <li>Scene construction and symphonic dialogue</li>
+          </ol>
+        </Box>
+      </Flex>
+      <h3>Some more resources to learn more about story telling</h3>
       <p>
         If you want to get to know more about story telling, these resources may
         help to get a clearer picture:
       </p>
-
       <Flex>
         <Box width={[1, 1 / 2]} pr={[0, 4]}>
           <ol>
@@ -294,11 +340,11 @@ const IndexPage = () => (
           </ol>
         </Box>
       </Flex>
-
       <h3>Musings on story telling</h3>
       <p>
         »If we take a risk and show that we are human and vulnerable then that's
-        where the best stories lie.«<br /> &mdash; Andrea Gibbs
+        where the best stories lie.«
+        <br /> &mdash; Andrea Gibbs
       </p>
       <p>
         »Know your audience.« <br /> &mdash; Matt Chan
@@ -363,6 +409,17 @@ const IndexPage = () => (
         waiting for anything new to arrive. If some content does not have the
         means to meet an audience, probably, no one will ever detect it. A video
         might help to generate the necessary attention.
+      </p>
+      <p>
+        Finally, knowledge management and documentation is a big issue. Because
+        information that is not documented is probably lost. Video is and will
+        continue to be essential. There are three types of knowledge: (a)
+        general, (b) special and (c) specific. In addition to books,
+        encyclopedias or Wikipedia, there are already a lot of videos available
+        on general and special knowledge either free or through online course
+        providers. The biggest challenge is documentation and knowledge
+        management on company specific issues. Video will also play a major role
+        here.
       </p>
       <h3>Some hints for producing a video</h3>
       <p>
@@ -525,7 +582,8 @@ const IndexPage = () => (
                 rel="noopener"
               >
                 react-fontawesome
-              </a>)
+              </a>
+              )
             </li>
             <li>
               <a
@@ -551,7 +609,8 @@ const IndexPage = () => (
                 rel="noopener"
               >
                 Octoverse
-              </a>)
+              </a>
+              )
             </li>
           </ul>
         </Box>
@@ -585,7 +644,8 @@ const IndexPage = () => (
                 rel="noopener"
               >
                 Desktop
-              </a>)
+              </a>
+              )
             </li>
             <li>
               <a
@@ -611,7 +671,8 @@ const IndexPage = () => (
                 rel="noopener"
               >
                 Xcode
-              </a>.
+              </a>
+              .
             </li>
           </ul>
         </Box>
@@ -653,7 +714,8 @@ const IndexPage = () => (
           rel="noopener"
         >
           https://github.com/DrUlrichAnders/DNE
-        </a>. Contributions from CBS students are most welcome.
+        </a>
+        . Contributions from CBS students are most welcome.
       </p>
     </Section>
 
