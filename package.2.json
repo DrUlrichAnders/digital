@@ -6,7 +6,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-solid-svg-icons": "^5.2.0",
-    "@fortawesome/react-fontawesome": "^0.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.0",
     "babel-plugin-styled-components": "^1.5.1",
     "bowser": "^1.9.4",
     "gatsby": "^1.9.277",
@@ -29,12 +29,12 @@
     "gatsby-transformer-remark": "^1.7.44",
     "grid-styled": "^5.0.2",
     "js-cookie": "^2.2.0",
-    "lazysizes": "^4.1.0",
+    "lazysizes": "^4.0.4",
     "moment": "^2.22.2",
     "prismjs": "^1.15.0",
     "react-cookie-consent": "^1.7.0",
     "react-helmet": "^5.2.0",
-    "styled-components": "^3.4.2",
+    "styled-components": "^3.3.3",
     "styled-system": "^3.0.2",
     "typography": "^0.16.17"
   },
@@ -49,9 +49,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "eslint": "^5.3.0",
+    "eslint": "^5.2.0",
     "eslint-plugin-react": "^7.10.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.0"
   },
   "resolve": {
     "react": "16.2.0",
