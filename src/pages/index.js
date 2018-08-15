@@ -506,6 +506,47 @@ const IndexPage = () => (
           </ol>
         </Box>
       </Flex>
+      <h3>Some free software for producing videos</h3>
+      <p>
+        There are some very useful and also free software tools for producing a
+        video. They are all available for Windows, Max, or Linux:
+      </p>
+      <ol>
+        <li>
+          <strong>Davinci Resolve</strong> — Professional video editing, but
+          complex and resource intensive (Davinci Resolve requires a computer or
+          laptop with an explicit graphic card that has CUDA 3.0 support):{" "}
+          <a href="https://www.blackmagicdesign.com/support/" target="_blank">
+            https://www.blackmagicdesign.com/support/
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://documents.blackmagicdesign.com/DaVinciResolve/20180814-0f11c3/DaVinci_Resolve_15_Reference_Manual.pdf"
+            target="_blank"
+          >
+            Davinci Resolve Manual
+          </a>
+        </li>
+        <li>
+          <strong>Shotcut:</strong> — Good video editing, less resource
+          intensive:{" "}
+          <a href="https://shotcut.org/" target="_blank">
+            https://shotcut.org/
+          </a>
+        </li>
+        <li>
+          <strong>Open Broadcast Studio</strong> — screen cam and streaming:{" "}
+          <a href="https://obsproject.com/" target="_blank">
+            https://obsproject.com/
+          </a>
+        </li>
+        <li>
+          <strong>Audacity</strong> — cutting and improving audio:{" "}
+          <a href="https://www.audacityteam.org/" target="_blank">
+            https://www.audacityteam.org/
+          </a>
+        </li>
+      </ol>
     </Section>
     <Hr />
 
