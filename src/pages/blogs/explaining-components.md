@@ -16,8 +16,7 @@ it mirrors the concept of boxes in boxes in boxes so closely. In React these
 boxes are called components.
 
 In this blog, I am going to introduce how a component is built. For this we are
-taking the `Header` component of this website (from version 1.1.0) as an
-example.
+taking the `Header` component of this website as an example.
 
 There are two ways to define components in React. The easier way is to simply
 define a JavaScript function in ES6 syntax:
@@ -107,7 +106,7 @@ component `FontAwesomeIcon` is imported from a package called
 `@fortawesome/react-fontawesome`. The component `Header` has been defined by
 myself and sits in a folder at `../../components-styled`.
 
-As you can probably tell from the name of the folder `styled-components` the
+As you can probably tell from the name of the folder `components-styled` the
 components I have defined myself have all received styling information. This
 means they have information about their background color, width, margin,
 padding, font-size, link color and so on. If you want to better understand the
@@ -133,4 +132,4 @@ information and a `<Nav />`--bar with several `<NavItem />`. Each `<NavItem />`
 has an icon and a name and is surrounded by a link.
 
 Well, that's it really. I think, you are now good to go to make your own
-component or at least modify the existent ones.
+component or at least to modify the existent ones.
