@@ -3,19 +3,7 @@
 // require.context() cannot take variables
 const requireFromContext = require.context("./", true, /\.jpg$/)
 // CHANGE HERE    ↓
-const images = [
-  "01",
-  "02",
-  "03",
-  "04",
-  "05",
-  "06",
-  "07",
-  "08",
-  "09",
-  "12",
-  "14"
-]
+const images = ["01", "02", "03", "04", "05", "06", "07", "09", "12", "14"]
 
 const extension = ".jpg"
 const imgPath = "./"
