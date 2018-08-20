@@ -20,7 +20,7 @@ const DCHeader = () => (
     <HeaderSection>
       <Link to="/">
         <LogoBrand>
-          <FontAwesomeIcon icon="keyboard" size="1x" /> Digital ...
+          <FontAwesomeIcon icon="keyboard" size="1x" /> digital@CBS
         </LogoBrand>
       </Link>
       <Nav>
