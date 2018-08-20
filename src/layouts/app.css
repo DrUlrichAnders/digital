@@ -16,15 +16,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-display: auto;
-  font-family: "Roboto";
-  src: url("/fonts/roboto-regular-webfont.woff2") format("woff2"),
-    url("/fonts/roboto-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 a {
   color: #d32f2f;
 }
