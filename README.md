@@ -1,4 +1,4 @@
-# dne
+# digital
 
 This is a repository developed for teaching the class _Digital Network Economy_
 at [Cologne Business School](https://cbs.de).
@@ -14,13 +14,13 @@ yarn global add gatsby-cli
 Download from GitHub:
 
 ```sh
-git clone https://github.com/DrUlrichAnders/dne.git
+git clone https://github.com/DrUlrichAnders/digital.git
 ```
 
 Change directory:
 
 ```sh
-cd dne
+cd digital
 ```
 
 Install packages:

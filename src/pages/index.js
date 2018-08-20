@@ -19,9 +19,9 @@ import DCPicture from "../components/DCPicture"
 const IndexPage = () => (
   <Container>
     <Section>
-      <h1 id="dne">
+      <h1 id="digital">
         Digital Network Economy & Digital Strategy Development{" "}
-        <a href="/#dne">
+        <a href="/#digital">
           <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h1>
@@ -751,11 +751,11 @@ const IndexPage = () => (
       <p>
         By the way, the sources for this website are on{" "}
         <a
-          href="https://github.com/DrUlrichAnders/dne"
+          href="https://github.com/DrUlrichAnders/digital"
           target="_blank"
           rel="noopener"
         >
-          https://github.com/DrUlrichAnders/dne
+          https://github.com/DrUlrichAnders/digital
         </a>
         . Contributions from CBS students are most welcome.
       </p>

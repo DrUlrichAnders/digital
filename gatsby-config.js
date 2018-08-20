@@ -2,7 +2,7 @@ var moment = require("moment")
 
 module.exports = {
   siteMetadata: {
-    title: "dne",
+    title: "digital",
     version: "1.4.0",
     date: moment()
       .add(2, "hours")
@@ -28,7 +28,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Digital Network Economy",
-        short_name: "dne",
+        short_name: "digital",
         description:
           "This website is a non-commercial website for educational purposes.It informs about the content of the Digital Network Economy class at Cologne Business School.",
         start_url: "/",

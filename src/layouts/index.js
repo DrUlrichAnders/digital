@@ -56,7 +56,7 @@ const TemplateWrapper = ({ children, data }) => (
         {
           name: "keywords",
           content:
-            "CBS, Dr. Ulrich Anders, dne, Digital Network Economy, Storytelling, Pitchdeck"
+            "CBS, Dr. Ulrich Anders, digital, Digital Network Economy, Storytelling, Pitchdeck"
         },
         {
           name: "theme-color",
@@ -68,7 +68,7 @@ const TemplateWrapper = ({ children, data }) => (
       <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     </Helmet>
     <div>
-      <CookieConsent cookieName="dneNetlifyCom">
+      <CookieConsent cookieName="digitalNetlifyCom">
         This website uses cookies for administrative purposes and to enhance the
         user experience. By using this website you agree to their application.
       </CookieConsent>
