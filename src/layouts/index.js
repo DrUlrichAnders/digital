@@ -33,7 +33,15 @@ library.add(
   faKeyboard
 )
 
-const browser = bowser.getParser(window.navigator.userAgent).getBrowser()
+let browser = {}
+// Wrap the require in check for window
+if (typeof window !== `undefined`) {
+  const bowser = require("bowser")
+  browser = bowser.getParser(window.navigator.userAgent).getBrowser()
+} else {
+  browser.name = "undefined"
+  browser.version = ""
+}
 
 const TemplateWrapper = ({ children, data }) => (
   <div>
