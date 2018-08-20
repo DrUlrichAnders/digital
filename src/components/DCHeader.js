@@ -20,7 +20,7 @@ const DCHeader = () => (
     <HeaderSection>
       <Link to="/">
         <LogoBrand>
-          <FontAwesomeIcon icon="gem" size="1x" /> DNE
+          <FontAwesomeIcon icon="keyboard" size="1x" /> Digital ...
         </LogoBrand>
       </Link>
       <Nav>

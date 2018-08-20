@@ -14,6 +14,7 @@ import bowser from "bowser"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
+  faKeyboard,
   faGem,
   faLink,
   faBook,
@@ -22,7 +23,17 @@ import {
   faInfoCircle
 } from "@fortawesome/free-solid-svg-icons"
 
-library.add(faGem, faLink, faBook, faCoffee, faQuestionCircle, faInfoCircle)
+library.add(
+  faGem,
+  faLink,
+  faBook,
+  faCoffee,
+  faQuestionCircle,
+  faInfoCircle,
+  faKeyboard
+)
+
+const browser = bowser.getParser(window.navigator.userAgent).getBrowser()
 
 const TemplateWrapper = ({ children, data }) => (
   <div>
@@ -58,7 +69,7 @@ const TemplateWrapper = ({ children, data }) => (
       <DCFooter
         version={data.site.siteMetadata.version}
         date={data.site.siteMetadata.date}
-        browser={bowser}
+        browser={browser}
       />
     </div>
   </div>

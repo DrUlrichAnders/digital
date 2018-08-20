@@ -20,7 +20,7 @@ const IndexPage = () => (
   <Container>
     <Section>
       <h1 id="dne">
-        Digital Network Economy{" "}
+        Digital Network Economy & Digital Strategy Development{" "}
         <a href="/#dne">
           <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
@@ -28,7 +28,8 @@ const IndexPage = () => (
       <p>
         This website is a personal and non-commercial website of Dr. Ulrich
         Anders for the purpose of teaching the course{" "}
-        <em>Digital Network Economy</em>. The course is taught at{" "}
+        <em>Digital Network Economy</em> and{" "}
+        <em>Digital Strategy Development</em>. The courses are taught at{" "}
         <a href="https://cbs.de/" target="_blank" rel="noopener">
           Cologne Business School
         </a>
@@ -765,7 +766,7 @@ const IndexPage = () => (
     <Section>
       <DCPicture img={img["09"]} />
       <h2 id="scrum">
-        Small Projects Realized with SCRUM{" "}
+        Agile Project management{" "}
         <a href="/#scrum">
           <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
