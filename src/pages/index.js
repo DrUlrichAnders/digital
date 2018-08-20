@@ -44,7 +44,7 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <DCPicture img={img["08"]} />
+      <DCPicture img={img["02"]} />
 
       <h2 id="future-of-work">
         The Future of Work{" "}
