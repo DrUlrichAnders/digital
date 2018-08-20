@@ -7,7 +7,7 @@ date: "2018-04-14"
 Hey guys,
 
 I'm writing this blog to give us all a little summary of last lesson and to wrap
-up all the steps you need to take to make changes at our DNE Website. Sure, Dr.
+up all the steps you need to take to make changes at our dne Website. Sure, Dr.
 Anders has given us a lot of information on slack and regularly updates the
 Website, but I want to try to explain it in my own words. I hope it helps you to
 get started :)
@@ -30,7 +30,7 @@ get started :)
 ### **Step 2**: Create a local fork of the website
 
 On
-[https://github.com/DrUlrichAnders/DNE](https://github.com/DrUlrichAnders/DNE)
+[https://github.com/DrUlrichAnders/dne](https://github.com/DrUlrichAnders/dne)
 is the website repository. The repository contains all files needed to edit the
 current website, or to copy and taylor it for your own use.
 
@@ -44,7 +44,7 @@ current website, or to copy and taylor it for your own use.
   Select your forked project. Make sure to choose a file path so that you can
   find your files later. You just downloaded all files of the website!
 
-* the 'DNE'-Project is now in your GitHub Desktop App. Click on
+* the 'dne'-Project is now in your GitHub Desktop App. Click on
   `Repository --> Open in Command Prompt`. Type in `yarn install` and hit enter.
   This will install a package needed to run the web server. Then do the same
   thing with `gatsby develop`. This command will start your web site on your

@@ -56,7 +56,7 @@ const TemplateWrapper = ({ children, data }) => (
         {
           name: "keywords",
           content:
-            "CBS, Dr. Ulrich Anders, DNE, Digital Network Economy, Storytelling, Pitchdeck"
+            "CBS, Dr. Ulrich Anders, dne, Digital Network Economy, Storytelling, Pitchdeck"
         },
         {
           name: "theme-color",

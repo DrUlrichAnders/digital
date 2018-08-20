@@ -751,11 +751,11 @@ const IndexPage = () => (
       <p>
         By the way, the sources for this website are on{" "}
         <a
-          href="https://github.com/DrUlrichAnders/DNE"
+          href="https://github.com/DrUlrichAnders/dne"
           target="_blank"
           rel="noopener"
         >
-          https://github.com/DrUlrichAnders/DNE
+          https://github.com/DrUlrichAnders/dne
         </a>
         . Contributions from CBS students are most welcome.
       </p>
