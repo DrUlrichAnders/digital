@@ -21,7 +21,8 @@ const DataProtectionPage = () => (
         maintained by Dr. Ulrich Anders for the purpose of teaching at{" "}
         <a href="https://cbs.de/" target="_blank" rel="noopener">
           Cologne Business School
-        </a>. As such this site has no intention to gather and process any
+        </a>
+        . As such this site has no intention to gather and process any
         person-related data. Therefore this site in itself does not use Google
         analytics, trackers, advertising or marketing hooks.
       </p>
@@ -36,8 +37,9 @@ const DataProtectionPage = () => (
         provider. In the case of this site the internet provider is{" "}
         <a href="https://netlify.com" target="_blank" rel="noopener">
           netlify.com
-        </a>. Netlify is using common internet technologies, such as cookies and
-        web server logs for monitoring access to this website.
+        </a>
+        . Netlify is using common internet technologies, such as cookies and web
+        server logs for monitoring access to this website.
       </p>
       <p>
         Most internet providers are generating log files that usually contain
@@ -77,9 +79,10 @@ const DataProtectionPage = () => (
       <p>
         We reserve the right to change this privacy policy. The current version
         of the privacy policy is available at{" "}
-        <a href="https://dne.netlify.com/data-protection">
-          https://dne.netlify.com/data-protection
-        </a>.
+        <a href="https://digital.netlify.com/data-protection">
+          https://digital.netlify.com/data-protection
+        </a>
+        .
       </p>
       <h3>Do not track</h3>
       <p>
@@ -101,9 +104,10 @@ const DataProtectionPage = () => (
       <p>
         We reserve the right to change this privacy policy. The current version
         of the privacy policy is available at{" "}
-        <a href="https://dne.netlify.com/data-protection">
-          https://dne.netlify.com/data-protection
-        </a>.
+        <a href="https://digital.netlify.com/data-protection">
+          https://digital.netlify.com/data-protection
+        </a>
+        .
       </p>
       <h3>Inquires</h3>
       <p>
@@ -111,10 +115,13 @@ const DataProtectionPage = () => (
         addressed to:
       </p>
       <p>
-        Dr. Ulrich Anders<br />
-        Cologne Business School<br />
+        Dr. Ulrich Anders
+        <br />
+        Cologne Business School
+        <br />
         Hardefuststr. 1<br />
-        D-50677 Köln<br />
+        D-50677 Köln
+        <br />
         u.anders@cbs.de
       </p>
     </Section>

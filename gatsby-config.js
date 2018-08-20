@@ -7,7 +7,7 @@ module.exports = {
     date: moment()
       .add(2, "hours")
       .format("MMM DD, YYYY (HH:mm)"),
-    siteUrl: "https://dne.netlify.com"
+    siteUrl: "https://digital.netlify.com"
   },
   plugins: [
     "gatsby-image",

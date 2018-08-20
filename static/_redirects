@@ -1,7 +1,7 @@
 # my manually set redirects
-http://dne.netlify.com https://dne.netlify.com
-http://dne.netlify.com/cheatsheets https://dne.netlify.com/cheatsheets
-http://dne.netlify.com/blogs https://dne.netlify.com/blogs
-http://dne.netlify.com/about https://dne.netlify.com/about
-http://dne.netlify.com/imprint https://dne.netlify.com/imprint
-http://dne.netlify.com/data-protection https://dne.netlify.com/data-protection
+http://digital.netlify.com https://digital.netlify.com
+http://digital.netlify.com/cheatsheets https://digital.netlify.com/cheatsheets
+http://digital.netlify.com/blogs https://digital.netlify.com/blogs
+http://digital.netlify.com/about https://digital.netlify.com/about
+http://digital.netlify.com/imprint https://digital.netlify.com/imprint
+http://digital.netlify.com/data-protection https://digital.netlify.com/data-protection
