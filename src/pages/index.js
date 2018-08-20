@@ -27,7 +27,7 @@ const IndexPage = () => (
       </h1>
       <p>
         This website is a personal and non-commercial website of Dr. Ulrich
-        Anders for the purpose of teaching the course{" "}
+        Anders for the purpose of teaching the courses{" "}
         <em>Digital Network Economy</em> and{" "}
         <em>Digital Strategy Development</em>. The courses are taught at{" "}
         <a href="https://cbs.de/" target="_blank" rel="noopener">
