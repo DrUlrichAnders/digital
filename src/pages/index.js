@@ -180,6 +180,132 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
+      <DCPicture img={img["08"]} />
+      <h2 id="on-content">
+        On content and channels{" "}
+        <a href="/#on-content">
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
+        </a>
+      </h2>
+      <p>Content has three aspects, that need to be considered:</p>
+      <ul>
+        <li>
+          <strong>Content creation</strong> — there are many forms of content:
+          articles, blogs, stories, images, illustrations, etc.
+        </li>
+        <li>
+          <strong>Content presentation</strong> — people tend to judge about the
+          quality of the content by its appearance. Just like in products,
+          people believe that better designed products have a better quality.
+        </li>
+        <li>
+          <strong>Content delivery</strong> — the best content in its nicest
+          form has no value if it does not reach anybody.
+        </li>
+      </ul>
+      <h3>Channels</h3>
+      <Flex>
+        <Box width={[1, 1 / 2]} pr={[0, 4]}>
+          <p>
+            <strong>Analog channels:</strong>
+          </p>
+          <ul>
+            <li>Books</li>
+            <li>(Business) Cards</li>
+            <li>Flyer / Brochures / Information</li>
+            <li>Letters</li>
+            <li>Print media ads</li>
+            <li>Radio</li>
+            <li>Television</li>
+            <li>Sticker / Magnets</li>
+          </ul>
+        </Box>
+        <Box width={[1, 1 / 2]} pl={[0, 4]}>
+          <p>
+            <strong>Digital channels:</strong>
+          </p>
+          <ul>
+            <li>E-Mails</li>
+            <li>Evaluations</li>
+            <li>Facebook</li>
+            <li>Google ads</li>
+            <li>Influencer</li>
+            <li>Instagram</li>
+            <li>Internet ads</li>
+            <li>Invitations</li>
+            <li>Kickstarter</li>
+            <li>Product placements / Reviews (explicit / implicit)</li>
+            <li>Referrals / links (from Youtube, Idealo, etc.)</li>
+            <li>Youtube</li>
+            <li>Website</li>
+          </ul>
+        </Box>
+      </Flex>
+      <Flex>
+        <Box width={[1, 1 / 2]} pl={[0, 4]}>
+          <p>
+            <strong>Personal channels:</strong>
+          </p>
+          <ul>
+            <li>Events</li>
+            <li>Invitations</li>
+          </ul>
+        </Box>
+        <Box width={[1, 1 / 2]} pr={[0, 4]}>
+          <p>
+            <strong>Programs:</strong>
+          </p>
+          <ul>
+            <li>Product information</li>
+            <li>Customer loyalty programs / Memberships</li>
+            <li>Customer recommendations</li>
+            <li>Overcompensation</li>
+            <li>Sponsoring</li>
+          </ul>
+        </Box>
+      </Flex>
+
+      <h3>Some more useful resources for producing content</h3>
+      <p>
+        There are some very useful and also free software tools for producing a
+        video. They are all available for Windows, Max, or Linux:
+      </p>
+      <ol>
+        <li>
+          <strong>XnView</strong> — Graphic programm for modifying pictures:{" "}
+          <a href="https://www.xnview.com/en/" target="_blank" rel="noopener">
+            https://www.xnview.com/en/
+          </a>{" "}
+        </li>
+        <li>
+          <strong>Google Fonts</strong> — Large amount of fonts:{" "}
+          <a href="https://fonts.google.com/" target="_blank" rel="noopener">
+            Google Fonts
+          </a>
+        </li>
+        <li>
+          <strong>Incompetech</strong> — Free mp3-music if you give credits:{" "}
+          <a href="https://incompetech.com/" target="_blank" rel="noopener">
+            https://incompetech.com/
+          </a>
+        </li>
+        <li>
+          <strong>Unsplash</strong> — Free pictures:{" "}
+          <a href="https://unsplash.com/" target="_blank" rel="noopener">
+            https://unsplash.com/
+          </a>
+        </li>
+        <li>
+          <strong>Pixabay</strong> — Free images":{" "}
+          <a href="https://pixabay.com/en/" target="_blank" rel="noopener">
+            https://pixabay.com/en/
+          </a>
+        </li>
+      </ol>
+    </Section>
+    <Hr />
+
+    <Section>
       <DCPicture img={img["01"]} />
       <h2 id="story-telling">
         Story Telling{" "}
@@ -529,7 +655,7 @@ const IndexPage = () => (
           </a>
         </li>
         <li>
-          <strong>Shotcut:</strong> — Good video editing, less resource
+          <strong>Shotcut</strong> — Good video editing, less resource
           intensive:{" "}
           <a href="https://shotcut.org/" target="_blank">
             https://shotcut.org/
@@ -549,6 +675,7 @@ const IndexPage = () => (
         </li>
       </ol>
     </Section>
+
     <Hr />
 
     <Section>
@@ -600,15 +727,7 @@ const IndexPage = () => (
                 Gridlover
               </a>
             </li>
-            <li>
-              <a
-                href="https://fonts.google.com/"
-                target="_blank"
-                rel="noopener"
-              >
-                Google Fonts
-              </a>
-            </li>
+
             <li>
               <a
                 href="https://fontawesome.com/cheatsheet"
