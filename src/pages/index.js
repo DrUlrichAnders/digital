@@ -182,7 +182,7 @@ const IndexPage = () => (
     <Section>
       <DCPicture img={img["08"]} />
       <h2 id="on-content">
-        On content and channels{" "}
+        On Content And Channels{" "}
         <a href="/#on-content">
           <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
