@@ -242,7 +242,7 @@ const IndexPage = () => (
         </Box>
       </Flex>
       <Flex>
-        <Box width={[1, 1 / 2]} pl={[0, 4]}>
+        <Box width={[1, 1 / 2]} pr={[0, 4]}>
           <p>
             <strong>Personal channels:</strong>
           </p>
@@ -251,7 +251,7 @@ const IndexPage = () => (
             <li>Invitations</li>
           </ul>
         </Box>
-        <Box width={[1, 1 / 2]} pr={[0, 4]}>
+        <Box width={[1, 1 / 2]} pl={[0, 4]}>
           <p>
             <strong>Programs:</strong>
           </p>
@@ -278,15 +278,44 @@ const IndexPage = () => (
           </a>{" "}
         </li>
         <li>
-          <strong>Google Fonts</strong> — Large amount of fonts:{" "}
-          <a href="https://fonts.google.com/" target="_blank" rel="noopener">
-            Google Fonts
+          <strong>Google Fonts</strong> — Large amount of free fonts:{" "}
+          <a
+            href="https://www.fontsquirrel.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            https://fonts.google.com/
           </a>
         </li>
         <li>
-          <strong>Incompetech</strong> — Free mp3-music if you give credits:{" "}
+          <strong>Font Squirrel</strong> — Hand-selected free fonts:{" "}
+          <a
+            href="https://www.fontsquirrel.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            https://www.fontsquirrel.com/
+          </a>
+        </li>
+        <li>
+          <strong>Incompetech</strong> — Free mp3-music if non-commercial and if
+          you give credits:{" "}
           <a href="https://incompetech.com/" target="_blank" rel="noopener">
             https://incompetech.com/
+          </a>
+        </li>
+        <li>
+          <strong>Bensound</strong> — Free mp3-music if non-commercial and if
+          you give credits:{" "}
+          <a href="https://www.bensound.com/" target="_blank" rel="noopener">
+            https://www.bensound.com/
+          </a>
+        </li>
+        <li>
+          <strong>Free Music Archive</strong> — Mp3-music with licenses defined
+          by individual artists (many of which are free):{" "}
+          <a href="http://freemusicarchive.org/" target="_blank" rel="noopener">
+            http://freemusicarchive.org/
           </a>
         </li>
         <li>
