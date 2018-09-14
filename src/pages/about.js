@@ -6,7 +6,7 @@ import {
   Section,
   FlexStyled as Flex
 } from "../components-styled"
-import { Box } from "grid-styled"
+import { Box } from "@rebass/grid"
 
 import img from "../img"
 import DCPicture from "../components/DCPicture"

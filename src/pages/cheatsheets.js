@@ -6,7 +6,7 @@ import {
   Section,
   FlexStyled as Flex
 } from "../components-styled"
-import { Box } from "grid-styled"
+import { Box } from "@rebass/grid"
 
 import imgHTML from "../img/1024/HTML_CHEAT_SHEET.png"
 import imgCSS1 from "../img/1024/CSS_CHEAT_SHEET_p1.png"

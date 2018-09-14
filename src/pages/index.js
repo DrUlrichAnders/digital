@@ -11,7 +11,7 @@ import {
   Hr
 } from "../components-styled"
 
-import { Box } from "grid-styled"
+import { Box } from "@rebass/grid"
 
 import img from "../img"
 import DCPicture from "../components/DCPicture"
@@ -740,11 +740,11 @@ const IndexPage = () => (
             </li>
             <li>
               <a
-                href="https://github.com/jxnblk/grid-styled"
+                href="https://github.com/rebassjs/grid"
                 target="_blank"
                 rel="noopener"
               >
-                grid-styled
+                @rebass/grid
               </a>
             </li>
             <li>
@@ -811,6 +811,10 @@ const IndexPage = () => (
               <a href="https://nodejs.org/en/" target="_blank" rel="noopener">
                 nodejs
               </a>
+              : after installing it open a command shell and run{" "}
+              <pre>
+                <code>npm install --global npm-check-updates</code>
+              </pre>
             </li>
             <li>
               <a

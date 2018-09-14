@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import Link from "gatsby-link"
-import { Flex } from "grid-styled"
+import { Flex } from "@rebass/grid"
 
 export const Article = styled.article`
   margin: 1.5rem 0;

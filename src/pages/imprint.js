@@ -5,7 +5,7 @@ import {
   Section,
   FlexStyled as Flex
 } from "../components-styled"
-import { Box } from "grid-styled"
+import { Box } from "@rebass/grid"
 
 const ImprintPage = () => (
   <Container>
