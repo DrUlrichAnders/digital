@@ -46,12 +46,12 @@ if (typeof window !== `undefined`) {
 const TemplateWrapper = ({ children, data }) => (
   <div>
     <Helmet
-      title="Digital Network Economy"
+      title="digital@CBS"
       meta={[
         {
           name: "description",
           content:
-            "This website is a non-commercial website for educational purposes. It informs about the content of the Digital Network Economy class at Cologne Business School."
+            "This website is a non-commercial website for educational purposes. It supports the content of the classes Digital Network Economy (DNE) and Digital Strategy Development (DSD) at Cologne Business School."
         },
         {
           name: "keywords",
