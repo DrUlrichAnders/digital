@@ -410,7 +410,7 @@ const IndexPage = () => (
           <ol>
             <li>
               <a
-                href="https://www.youtube.com/watch?v=YbV3b-l1sZs"
+                href="https://www.ted.com/talks/andrew_stanton_the_clues_to_a_great_story/transcript"
                 target="_blank"
                 rel="noopener"
               >
@@ -437,7 +437,7 @@ const IndexPage = () => (
             </li>
             <li>
               <a
-                href="https://www.youtube.com/watch?v=sh1-9xMZIfQ"
+                href="https://www.tedxperth.org/power-storytelling"
                 target="_blank"
                 rel="noopener"
               >
