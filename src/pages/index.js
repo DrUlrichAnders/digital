@@ -233,9 +233,9 @@ const IndexPage = () => (
             <li>Instagram</li>
             <li>Internet ads</li>
             <li>Invitations</li>
-            <li>Kickstarter</li>
+            <li>Kickstarter / Indiegogo</li>
             <li>Product placements / Reviews (explicit / implicit)</li>
-            <li>Referrals / links (from Youtube, Idealo, etc.)</li>
+            <li>Referrals (such as links from Youtube, Idealo, etc.)</li>
             <li>Youtube</li>
             <li>Website</li>
           </ul>
@@ -259,7 +259,7 @@ const IndexPage = () => (
             <li>Product information</li>
             <li>Customer loyalty programs / Memberships</li>
             <li>Customer recommendations</li>
-            <li>Overcompensation</li>
+            <li>Overcompensation in case of complaints</li>
             <li>Sponsoring</li>
           </ul>
         </Box>
@@ -854,9 +854,7 @@ const IndexPage = () => (
               EsLint, File Utils, Guides, npm, npm Intellisense, Sort lines,
               Prettier, vscode-styled-components.
             </li>
-            <li>
-              or any other editor of your liking, e.g. Atom, Sublime, etc.
-            </li>
+            <li>Any other editor of your liking, e.g. Atom, Sublime, etc.</li>
             <li>
               Mac users will also need to install{" "}
               <a
@@ -884,21 +882,22 @@ const IndexPage = () => (
         </a>
       </h2>
       <p>
-        GitHub is a plattform to exchange software based on the exceptionally
-        well thought out versioning software named <em>git</em>. But GitHub is
-        much more than this. It is probably THE go-to-place for most open source
-        software projects. Have a look at the{" "}
+        GitHub is a plattform for exchanging software (or other digital content)
+        based on the exceptionally well thought out versioning software named{" "}
+        <em>git</em>. But GitHub is much more than this. It is probably THE
+        go-to-place for most open source software projects. Have a look at the{" "}
         <a href="https://octoverse.github.com/" target="_blank" rel="noopener">
           GitHub Octoverse{" "}
         </a>{" "}
-        to get an idea about the huge dimension and importance of GitHub.
+        to get an idea about the huge dimension and importance of GitHub across
+        the world.
       </p>
       <p>
-        But GitHub is even more than just big. It also is a show-case for a
-        co-operation model which is not built on hierarchies but on competences
-        alone. There is also no distinction on race, gender or age on GitHub. As
-        such it can serve as a blueprint for modern organisations that want to
-        get ready for the future.
+        But GitHub is even more than just big and important. It also is a
+        show-case for a co-operation model which is not built on hierarchies but
+        on competences alone. There is also no distinction on race, gender or
+        age on GitHub. As such it can serve as a blueprint for modern
+        organisations that want to get ready for the future.
       </p>
       <p>
         By the way, the sources for this website are on{" "}
@@ -917,15 +916,26 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["09"]} />
-      <h2 id="scrum">
-        Agile Project management{" "}
-        <a href="/#scrum">
+      <h2 id="agile">
+        Agile Project Management{" "}
+        <a href="/#agile">
           <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
         </a>
       </h2>
       <p>
-        We will achieve some of our objectives by help of organising ourselves
-        in an agile manner.
+        Projects are change and project management is the ability to master
+        changes in a proven and structured form. In the digital world classical
+        waterfall project management has been replaced by agile project
+        management approaches, such as SCRUM or KANBAN.
+      </p>
+      <p>
+        Project management is one of the most looked after and most widely
+        applicable skills in a digital context. Agile project methodologies
+        approach projects differently than classical project management. In
+        agile project management the products becomes the sole focus. The
+        product is developed in iterations and in each iteration the customer or
+        its representative can easily introduce changes, modifications and
+        corrections.
       </p>
     </Section>
   </Container>
