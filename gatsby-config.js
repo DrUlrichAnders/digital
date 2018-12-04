@@ -5,7 +5,7 @@ module.exports = {
     title: "digital",
     version: "1.4.0",
     date: moment()
-      .add(2, "hours")
+      .add(1, "hours")
       .format("MMM DD, YYYY (HH:mm)"),
     siteUrl: "https://digital.netlify.com"
   },
