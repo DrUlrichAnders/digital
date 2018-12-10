@@ -207,7 +207,7 @@ const IndexPage = () => (
       <Flex>
         <Box width={[1, 1 / 2]} pr={[0, 4]}>
           <p>
-            <strong>Analog channels:</strong>
+            <strong>Analogue channels:</strong>
           </p>
           <ul>
             <li>Books</li>
@@ -400,7 +400,7 @@ const IndexPage = () => (
           </ol>
         </Box>
       </Flex>
-      <h3>Some more resources to learn more about story telling</h3>
+      <h3>Some resources to learn more about story telling</h3>
       <p>
         If you want to get to know more about story telling, these resources may
         help to get a clearer picture:
