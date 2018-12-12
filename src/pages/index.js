@@ -30,7 +30,7 @@ const IndexPage = () => (
         Anders for the purpose of teaching the courses{" "}
         <em>Digital Network Economy</em> and{" "}
         <em>Digital Strategy Development</em>. The courses are taught at{" "}
-        <a href="https://cbs.de/" target="_blank" rel="noopener">
+        <a href="https://cbs.de/" target="_blank" rel="noopener noreferrer">
           Cologne Business School
         </a>
         .
@@ -273,7 +273,11 @@ const IndexPage = () => (
       <ol>
         <li>
           <strong>XnView</strong> — Graphic programm for modifying pictures:{" "}
-          <a href="https://www.xnview.com/en/" target="_blank" rel="noopener">
+          <a
+            href="https://www.xnview.com/en/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://www.xnview.com/en/
           </a>{" "}
         </li>
@@ -282,7 +286,7 @@ const IndexPage = () => (
           <a
             href="https://www.fontsquirrel.com/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             https://fonts.google.com/
           </a>
@@ -292,7 +296,7 @@ const IndexPage = () => (
           <a
             href="https://www.fontsquirrel.com/"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             https://www.fontsquirrel.com/
           </a>
@@ -300,33 +304,53 @@ const IndexPage = () => (
         <li>
           <strong>Incompetech</strong> — Free mp3-music if non-commercial and if
           you give credits:{" "}
-          <a href="https://incompetech.com/" target="_blank" rel="noopener">
+          <a
+            href="https://incompetech.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://incompetech.com/
           </a>
         </li>
         <li>
           <strong>Bensound</strong> — Free mp3-music if non-commercial and if
           you give credits:{" "}
-          <a href="https://www.bensound.com/" target="_blank" rel="noopener">
+          <a
+            href="https://www.bensound.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://www.bensound.com/
           </a>
         </li>
         <li>
           <strong>Free Music Archive</strong> — Mp3-music with licenses defined
           by individual artists (many of which are free):{" "}
-          <a href="http://freemusicarchive.org/" target="_blank" rel="noopener">
+          <a
+            href="http://freemusicarchive.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             http://freemusicarchive.org/
           </a>
         </li>
         <li>
           <strong>Unsplash</strong> — Free pictures:{" "}
-          <a href="https://unsplash.com/" target="_blank" rel="noopener">
+          <a
+            href="https://unsplash.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://unsplash.com/
           </a>
         </li>
         <li>
           <strong>Pixabay</strong> — Free images":{" "}
-          <a href="https://pixabay.com/en/" target="_blank" rel="noopener">
+          <a
+            href="https://pixabay.com/en/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://pixabay.com/en/
           </a>
         </li>
@@ -412,7 +436,7 @@ const IndexPage = () => (
               <a
                 href="https://www.ted.com/talks/andrew_stanton_the_clues_to_a_great_story/transcript"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Andrew Stanton: The clues to a great story
               </a>
@@ -421,7 +445,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=YbV3b-l1sZs"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Garr Reynolds: Why storytelling matters
               </a>
@@ -430,7 +454,7 @@ const IndexPage = () => (
               <a
                 href="https://www.ted.com/talks/j_j_abrams_mystery_box"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 J.J. Abrams: The mystery box
               </a>
@@ -439,7 +463,7 @@ const IndexPage = () => (
               <a
                 href="https://www.tedxperth.org/power-storytelling"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Andrea Gibbs: The power of storytelling
               </a>
@@ -448,7 +472,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=wgeh4xhSA2Q"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Donald Davis: How the story transforms the teller
               </a>
@@ -461,7 +485,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=Nj-hdQMa3uA"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 David JP Phillips: The magical science of storytelling
               </a>
@@ -470,7 +494,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=al3-Kl4BDUQ"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Julian Friedmann: The mystery of storytelling
               </a>
@@ -479,7 +503,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=RoEEDKwzNBw"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Tyler Cowen: Be suspicious of stories
               </a>
@@ -488,7 +512,7 @@ const IndexPage = () => (
               <a
                 href="https://www.youtube.com/watch?v=xOTZfGyVh1I"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Veit Etzold: Die Kunst des Storytelling
               </a>
@@ -672,13 +696,14 @@ const IndexPage = () => (
           <strong>Davinci Resolve</strong> — Professional video editing, but
           complex and resource intensive (Davinci Resolve requires a computer or
           laptop with an explicit graphic card that has CUDA 3.0 support):{" "}
-          <a href="https://www.blackmagicdesign.com/support/" target="_blank">
+          <a href="https://www.blackmagicdesign.com/support/" target="_blank" rel="noopener noreferrer">
             https://www.blackmagicdesign.com/support/
           </a>{" "}
           and{" "}
           <a
             href="https://documents.blackmagicdesign.com/DaVinciResolve/20180814-0f11c3/DaVinci_Resolve_15_Reference_Manual.pdf"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Davinci Resolve Manual
           </a>
@@ -686,19 +711,19 @@ const IndexPage = () => (
         <li>
           <strong>Shotcut</strong> — Good video editing, less resource
           intensive:{" "}
-          <a href="https://shotcut.org/" target="_blank">
+          <a href="https://shotcut.org/" target="_blank" rel="noopener noreferrer">
             https://shotcut.org/
           </a>
         </li>
         <li>
           <strong>Open Broadcast Studio</strong> — screen cam and streaming:{" "}
-          <a href="https://obsproject.com/" target="_blank">
+          <a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">
             https://obsproject.com/
           </a>
         </li>
         <li>
           <strong>Audacity</strong> — cutting and improving audio:{" "}
-          <a href="https://www.audacityteam.org/" target="_blank">
+          <a href="https://www.audacityteam.org/" target="_blank" rel="noopener noreferrer">
             https://www.audacityteam.org/
           </a>
         </li>
@@ -720,12 +745,20 @@ const IndexPage = () => (
           <p>We are building a website with</p>
           <ul>
             <li>
-              <a href="https://reactjs.org/" target="_blank" rel="noopener">
+              <a
+                href="https://reactjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 React
               </a>
             </li>
             <li>
-              <a href="https://gatsbyjs.org/" target="_blank" rel="noopener">
+              <a
+                href="https://gatsbyjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Gatsby
               </a>
             </li>
@@ -733,7 +766,7 @@ const IndexPage = () => (
               <a
                 href="https://www.styled-components.com/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Styled-Components
               </a>
@@ -742,7 +775,7 @@ const IndexPage = () => (
               <a
                 href="https://github.com/rebassjs/grid"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 @rebass/grid
               </a>
@@ -751,7 +784,7 @@ const IndexPage = () => (
               <a
                 href="https://www.gridlover.net/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Gridlover
               </a>
@@ -761,7 +794,7 @@ const IndexPage = () => (
               <a
                 href="https://fontawesome.com/cheatsheet"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Font Awesome
               </a>{" "}
@@ -769,7 +802,7 @@ const IndexPage = () => (
               <a
                 href="https://github.com/FortAwesome/react-fontawesome"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 react-fontawesome
               </a>
@@ -779,7 +812,7 @@ const IndexPage = () => (
               <a
                 href="https://www.materialui.co/colors"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Material Design Colors
               </a>
@@ -788,7 +821,7 @@ const IndexPage = () => (
               <a
                 href="https://github.com/explore"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>{" "}
@@ -796,7 +829,7 @@ const IndexPage = () => (
               <a
                 href="https://octoverse.github.com/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Octoverse
               </a>
@@ -808,19 +841,24 @@ const IndexPage = () => (
           <p>As pre-requisites you'll need:</p>
           <ul>
             <li>
-              <a href="https://nodejs.org/en/" target="_blank" rel="noopener">
+              <a
+                href="https://nodejs.org/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 nodejs
               </a>
               : after installing it open a command shell and run{" "}
               <pre>
                 <code>npm install --global npm-check-updates</code>
+                <code>npm install --global serve</code>
               </pre>
             </li>
             <li>
               <a
                 href="https://yarnpkg.com/lang/en/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Yarn
               </a>
@@ -828,14 +866,18 @@ const IndexPage = () => (
             <li>
               {" "}
               GitHub (
-              <a href="https://git-scm.com/" target="_blank" rel="noopener">
+              <a
+                href="https://git-scm.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 git
               </a>{" "}
               |{" "}
               <a
                 href="https://desktop.github.com/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Desktop
               </a>
@@ -845,7 +887,7 @@ const IndexPage = () => (
               <a
                 href="https://code.visualstudio.com/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Visual Studio Code
               </a>
@@ -860,7 +902,7 @@ const IndexPage = () => (
               <a
                 href="https://developer.apple.com/xcode/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 Xcode
               </a>
@@ -886,7 +928,11 @@ const IndexPage = () => (
         based on the exceptionally well thought out versioning software named{" "}
         <em>git</em>. But GitHub is much more than this. It is probably THE
         go-to-place for most open source software projects. Have a look at the{" "}
-        <a href="https://octoverse.github.com/" target="_blank" rel="noopener">
+        <a
+          href="https://octoverse.github.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           GitHub Octoverse{" "}
         </a>{" "}
         to get an idea about the huge dimension and importance of GitHub across
@@ -904,7 +950,7 @@ const IndexPage = () => (
         <a
           href="https://github.com/DrUlrichAnders/digital"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           https://github.com/DrUlrichAnders/digital
         </a>
