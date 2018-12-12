@@ -696,7 +696,11 @@ const IndexPage = () => (
           <strong>Davinci Resolve</strong> — Professional video editing, but
           complex and resource intensive (Davinci Resolve requires a computer or
           laptop with an explicit graphic card that has CUDA 3.0 support):{" "}
-          <a href="https://www.blackmagicdesign.com/support/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.blackmagicdesign.com/support/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://www.blackmagicdesign.com/support/
           </a>{" "}
           and{" "}
@@ -711,19 +715,31 @@ const IndexPage = () => (
         <li>
           <strong>Shotcut</strong> — Good video editing, less resource
           intensive:{" "}
-          <a href="https://shotcut.org/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://shotcut.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://shotcut.org/
           </a>
         </li>
         <li>
           <strong>Open Broadcast Studio</strong> — screen cam and streaming:{" "}
-          <a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://obsproject.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://obsproject.com/
           </a>
         </li>
         <li>
           <strong>Audacity</strong> — cutting and improving audio:{" "}
-          <a href="https://www.audacityteam.org/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.audacityteam.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://www.audacityteam.org/
           </a>
         </li>
@@ -851,6 +867,7 @@ const IndexPage = () => (
               : after installing it open a command shell and run{" "}
               <pre>
                 <code>npm install --global npm-check-updates</code>
+                <br />
                 <code>npm install --global serve</code>
               </pre>
             </li>
@@ -896,7 +913,6 @@ const IndexPage = () => (
               EsLint, File Utils, Guides, npm, npm Intellisense, Sort lines,
               Prettier, vscode-styled-components.
             </li>
-            <li>Any other editor of your liking, e.g. Atom, Sublime, etc.</li>
             <li>
               Mac users will also need to install{" "}
               <a
@@ -905,6 +921,14 @@ const IndexPage = () => (
                 rel="noopener noreferrer"
               >
                 Xcode
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://brew.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Homebrew / brew
               </a>
               .
             </li>
