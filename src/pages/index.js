@@ -909,9 +909,10 @@ const IndexPage = () => (
                 Visual Studio Code
               </a>
               <br /> with these recommended extensions: Atom Keymap, Auto Close
-              Tag, Auto Rename Tag, Bracket Pair Colorizer, Color Highlight,
-              EsLint, File Utils, Guides, npm, npm Intellisense, Sort lines,
-              Prettier, vscode-styled-components.
+              Tag, Auto Rename Tag, Bracket Pair Colorizer, Code Runner, Code
+              Spell Checker, Color Highlight, EsLint, File Utils, Guides, Lorem
+              Ipsum, npm, npm Intellisense, Prettier, Sort lines, TODO
+              Highlight, vscode-icons, vscode-styled-components, Word Count.
             </li>
             <li>
               Mac users will also need to install{" "}
