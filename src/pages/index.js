@@ -762,6 +762,15 @@ const IndexPage = () => (
           <ul>
             <li>
               <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                JavaScript
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://reactjs.org/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -856,6 +865,24 @@ const IndexPage = () => (
         <Box width={[1, 1 / 2]}>
           <p>As pre-requisites you'll need:</p>
           <ul>
+            <li>
+              <a
+                href="https://www.google.de/chrome/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Google Chrome
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Google React Developer Tools
+              </a>
+            </li>
             <li>
               <a
                 href="https://nodejs.org/en/"
