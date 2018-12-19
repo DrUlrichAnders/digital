@@ -650,14 +650,14 @@ const IndexPage = () => (
               Don't make the background music too loud, so that people have
               difficulties hearing the narration.
             </li>
+          </ol>
+        </Box>
+        <Box width={[1, 1 / 2]} pl={[0, 4]}>
+          <ol start="14">
             <li>
               Consider using headlines, subtitles or other texts for supporting
               or structuring the story. Let text ease or fade in or out.
             </li>
-          </ol>
-        </Box>
-        <Box width={[1, 1 / 2]} pl={[0, 4]}>
-          <ol start="13">
             <li>
               Videos can use moving scenes and static images. Pan over static
               images to make them more lively.
