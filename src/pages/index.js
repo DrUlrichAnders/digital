@@ -609,6 +609,14 @@ const IndexPage = () => (
       <Flex>
         <Box width={[1, 1 / 2]} pr={[0, 4]}>
           <ol>
+            <li>
+              Defined precisely, who the narrator is and whom he/she represents.
+              Tell the story from this very perspective.
+            </li>
+            <li>
+              Be very clear on the objective: what do you want the audience
+              after watching the video to feel, to know or to do?
+            </li>
             <li>Generate interest in your topic, don't assume this.</li>
             <li>
               Tell a story: a story is more than just passing information.
