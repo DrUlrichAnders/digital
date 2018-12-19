@@ -615,7 +615,7 @@ const IndexPage = () => (
             </li>
             <li>
               Be very clear on the objective: what do you want the audience
-              after watching the video to feel, to know or to do?
+              after watching the video to feel, to believe, to know or to do?
             </li>
             <li>Generate interest in your topic, don't assume this.</li>
             <li>
