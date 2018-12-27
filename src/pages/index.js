@@ -780,6 +780,15 @@ const IndexPage = () => (
             </li>
             <li>
               <a
+                href="https://babeljs.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Babel
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://reactjs.org/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -823,7 +832,6 @@ const IndexPage = () => (
                 Gridlover
               </a>
             </li>
-
             <li>
               <a
                 href="https://fontawesome.com/cheatsheet"
@@ -853,15 +861,6 @@ const IndexPage = () => (
             </li>
             <li>
               <a
-                href="https://www.netlify.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Netlify
-              </a>
-            </li>
-            <li>
-              <a
                 href="https://github.com/explore"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -877,6 +876,24 @@ const IndexPage = () => (
                 Octoverse
               </a>
               )
+            </li>
+            <li>
+              <a
+                href="https://www.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Netlify
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://semver.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Semantic Versioning
+              </a>
             </li>
           </ul>
         </Box>
