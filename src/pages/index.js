@@ -961,7 +961,15 @@ const IndexPage = () => (
               >
                 Desktop
               </a>
-              )
+              ). You'll need to{" "}
+              <a
+                href="https://github.com/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                sign in into GitHub
+              </a>{" "}
+              to complete the install of GitHub Desktop.
             </li>
             <li>
               <a
