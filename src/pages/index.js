@@ -944,8 +944,14 @@ const IndexPage = () => (
               </pre>
             </li>
             <li>
-              {" "}
-              GitHub (
+              <a
+                href="https://github.com/login"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign in into GitHub
+              </a>{" "}
+              and then install{" "}
               <a
                 href="https://git-scm.com/"
                 target="_blank"
@@ -953,23 +959,15 @@ const IndexPage = () => (
               >
                 git
               </a>{" "}
-              |{" "}
+              and{" "}
               <a
                 href="https://desktop.github.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Desktop
+                GitHub Desktop
               </a>
-              ). You'll need to{" "}
-              <a
-                href="https://github.com/login"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                sign in into GitHub
-              </a>{" "}
-              to complete the install of GitHub Desktop.
+              .
             </li>
             <li>
               <a
