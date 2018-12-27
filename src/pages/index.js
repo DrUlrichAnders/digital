@@ -719,6 +719,7 @@ const IndexPage = () => (
           >
             Davinci Resolve Manual
           </a>
+          .
         </li>
         <li>
           <strong>Shotcut</strong> — Good video editing, less resource
@@ -852,6 +853,15 @@ const IndexPage = () => (
             </li>
             <li>
               <a
+                href="https://www.netlify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Netlify
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://github.com/explore"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -880,9 +890,8 @@ const IndexPage = () => (
                 rel="noopener noreferrer"
               >
                 Google Chrome
-              </a>
-            </li>
-            <li>
+              </a>{" "}
+              and{" "}
               <a
                 href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en"
                 target="_blank"
@@ -892,28 +901,30 @@ const IndexPage = () => (
               </a>
             </li>
             <li>
+              Mac users will also need to install{" "}
+              <a
+                href="https://developer.apple.com/xcode/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Xcode
+              </a>{" "}
+            </li>
+            <li>
               <a
                 href="https://nodejs.org/en/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                nodejs
-              </a>
-              : after installing it open a command shell and run{" "}
+                node
+              </a>{" "}
+              (which comes with npm): after installing it open a command shell
+              and run{" "}
               <pre>
                 <code>npm install --global npm-check-updates</code>
                 <br />
                 <code>npm install --global serve</code>
               </pre>
-            </li>
-            <li>
-              <a
-                href="https://yarnpkg.com/lang/en/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Yarn
-              </a>
             </li>
             <li>
               {" "}
@@ -950,15 +961,37 @@ const IndexPage = () => (
               Highlight, vscode-icons, vscode-styled-components, Word Count.
             </li>
             <li>
-              Mac users will also need to install{" "}
+              It is recommendable to install the following file managers:
+              <br />
               <a
-                href="https://developer.apple.com/xcode/"
+                href="https://www.ghisler.com/ddownload.htm"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Xcode
+                Total Commander for Windows
               </a>{" "}
-              and{" "}
+              or{" "}
+              <a
+                href="https://mac.eltima.com/file-manager.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Commander One for Mac
+              </a>
+              .
+            </li>
+            <li>
+              As an alternative to npm some people prefer{" "}
+              <a
+                href="https://yarnpkg.com/lang/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Yarn
+              </a>
+              .
+              <br />
+              (For Yarn to work Mac users will also need to install{" "}
               <a
                 href="https://brew.sh/"
                 target="_blank"
@@ -966,7 +999,7 @@ const IndexPage = () => (
               >
                 Homebrew / brew
               </a>
-              .
+              .)
             </li>
           </ul>
         </Box>
