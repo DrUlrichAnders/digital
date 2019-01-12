@@ -1123,7 +1123,7 @@ const IndexPage = () => (
         corrections.
       </p>
     </Section>
-    <Section>
+    {/* <Section>
       <DCPicture img={img["15"]} />
       <h2 id="feedback">
         Feedback{" "}
@@ -1140,7 +1140,7 @@ const IndexPage = () => (
           dream of sharing my love of bangle with other people through an
           entertainment medium. I am humbled and grateful to you for this."
         </em>
-        <br />— Gunjan S., MBA 2017
+        <br />— Gunjan. S., MBA 2017
       </p>
       <p>
         <em>
@@ -1153,7 +1153,7 @@ const IndexPage = () => (
           skills that will allow me to compete in today’s digital network
           economy."
         </em>
-        <br />— Makordoh S., MBA 2017
+        <br />— Markadoh. S., MBA 2017
       </p>
       <p>
         <em>
@@ -1169,7 +1169,7 @@ const IndexPage = () => (
         </em>
         <br />— Simon F., MBA 2017
       </p>
-    </Section>
+    </Section> */}
   </Container>
 )
 
