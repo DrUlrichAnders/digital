@@ -14,7 +14,8 @@ const images = [
   "08",
   "09",
   "12",
-  "14"
+  "14",
+  "15"
 ]
 
 const extension = ".jpg"
