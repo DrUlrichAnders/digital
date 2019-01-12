@@ -1085,34 +1085,36 @@ const IndexPage = () => (
         If you look for free software to try out project management, these
         products can be recommended:
       </p>
-      <Box width={[1, 1 / 2]}>
-        <p>Classical waterfall project management</p>
-        <ul>
-          <li>
-            <a
-              href="https://www.projectlibre.com/product/projectlibre-open-source"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ProjectLibre
-            </a>{" "}
-          </li>
-        </ul>
-      </Box>
-      <Box width={[1, 1 / 2]}>
-        <p>Online Kanban project management</p>
-        <ul>
-          <li>
-            <a
-              href="https://trello.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Trello
-            </a>{" "}
-          </li>
-        </ul>
-      </Box>
+      <Flex>
+        <Box width={[1, 1 / 2]}>
+          <p>Classical waterfall project management</p>
+          <ul>
+            <li>
+              <a
+                href="https://www.projectlibre.com/product/projectlibre-open-source"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ProjectLibre
+              </a>{" "}
+            </li>
+          </ul>
+        </Box>
+        <Box width={[1, 1 / 2]}>
+          <p>Online Kanban project management</p>
+          <ul>
+            <li>
+              <a
+                href="https://trello.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Trello
+              </a>{" "}
+            </li>
+          </ul>
+        </Box>
+      </Flex>
       <p>
         Project management is one of the most looked for and most widely
         applicable skill in a digital context. Agile project methodologies
