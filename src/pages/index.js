@@ -33,11 +33,13 @@ const IndexPage = () => (
         <a href="https://cbs.de/" target="_blank" rel="noopener noreferrer">
           Cologne Business School
         </a>
-        .
+        . This website serves the purpose to be a reference site for various
+        materials and concepts, that may be useful to students in the context of
+        digital topics.
       </p>
       <p>
-        Elements of this website are programmed in class. Of course this website
-        is <em>responsive</em>.
+        Elements of this website have been programmed in class. Of course this
+        website is <em>responsive</em>.
       </p>
     </Section>
 
@@ -1061,17 +1063,6 @@ const IndexPage = () => (
         age on GitHub. As such it can serve as a blueprint for modern
         organisations that want to get ready for the future.
       </p>
-      <p>
-        By the way, the sources for this website are on{" "}
-        <a
-          href="https://github.com/DrUlrichAnders/digital"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          https://github.com/DrUlrichAnders/digital
-        </a>
-        . Contributions from CBS students are most welcome.
-      </p>
     </Section>
 
     <Hr />
@@ -1087,17 +1078,96 @@ const IndexPage = () => (
       <p>
         Projects are change and project management is the ability to master
         changes in a proven and structured form. In the digital world classical
-        waterfall project management has been replaced by agile project
+        waterfall project management has been complemented by agile project
         management approaches, such as SCRUM or KANBAN.
       </p>
       <p>
-        Project management is one of the most looked after and most widely
-        applicable skills in a digital context. Agile project methodologies
+        If you look for free software to try out project management, these
+        products can be recommended:
+      </p>
+      <Box width={[1, 1 / 2]}>
+        <p>Classical waterfall project management</p>
+        <ul>
+          <li>
+            <a
+              href="https://www.projectlibre.com/product/projectlibre-open-source"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ProjectLibre
+            </a>{" "}
+          </li>
+        </ul>
+      </Box>
+      <Box width={[1, 1 / 2]}>
+        <p>Online Kanban project management</p>
+        <ul>
+          <li>
+            <a
+              href="https://trello.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Trello
+            </a>{" "}
+          </li>
+        </ul>
+      </Box>
+      <p>
+        Project management is one of the most looked for and most widely
+        applicable skill in a digital context. Agile project methodologies
         approach projects differently than classical project management. In
-        agile project management the products becomes the sole focus. The
-        product is developed in iterations and in each iteration the customer or
-        its representative can easily introduce changes, modifications and
+        agile project management a product becomes the sole focus. The product
+        is developed in iterations and in each iteration the customer or its
+        representative can easily introduce changes, modifications and
         corrections.
+      </p>
+    </Section>
+    <Section>
+      <DCPicture img={img["15"]} />
+      <h2 id="feedback">
+        Feedback{" "}
+        <a href="/#feedback">
+          <FontAwesomeIcon icon="link" size="xs" color="lightgray" />
+        </a>
+      </h2>
+      <p>
+        {" "}
+        <em>
+          "To sum up, I can say that it was a wonderful expedition that I have
+          been on while making this video. I have earned many new aspects of
+          creative media usage and most importantly I was able to fulfil my
+          dream of sharing my love of bangle with other people through an
+          entertainment medium. I am humbled and grateful to you for this."
+        </em>
+        <br />— Gunjan S., MBA 2017
+      </p>
+      <p>
+        <em>
+          "Starting and completing this project at times was a daunting task for
+          me. I have discovered that there lies an art and science to effective
+          storytelling and video and various other media can help to enhance the
+          effectiveness of one’s storytelling. And while I still do not consider
+          myself a creative storyteller or the fact that I still do not enjoy
+          the process of video production, I walk away acquiring practical
+          skills that will allow me to compete in today’s digital network
+          economy."
+        </em>
+        <br />— Makordoh S., MBA 2017
+      </p>
+      <p>
+        <em>
+          "At the beginning of the course, I was sort of skeptical if I will
+          actually apply that knowledge I have learned one day. A couple of
+          weeks later, my initial skepticism was rapidly forgotten because
+          reality proved me wrong. Some time ago, we decided in our company
+          [...] to offer our product for presale on Kickstarter. And as you may
+          know, a compelling video is essential for a successful Kickstarter
+          campaign. So I spend with my colleagues some time to brainstorm about
+          the storyboard and the fact that I already have worked on a short 3
+          minutes video was definitely helpful for that."
+        </em>
+        <br />— Simon F., MBA 2017
       </p>
     </Section>
   </Container>
