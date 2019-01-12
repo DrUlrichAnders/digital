@@ -1153,7 +1153,7 @@ const IndexPage = () => (
           skills that will allow me to compete in today’s digital network
           economy."
         </em>
-        <br />— Markadoh. S., MBA 2017
+        <br />— Makordoh S., MBA 2017
       </p>
       <p>
         <em>
