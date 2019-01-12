@@ -1,7 +1,3 @@
 # my manually set redirects
-http://digital.netlify.com https://digital.netlify.com
-http://digital.netlify.com/cheatsheets https://digital.netlify.com/cheatsheets
-http://digital.netlify.com/blogs https://digital.netlify.com/blogs
-http://digital.netlify.com/about https://digital.netlify.com/about
-http://digital.netlify.com/imprint https://digital.netlify.com/imprint
-http://digital.netlify.com/data-protection https://digital.netlify.com/data-protection
+http://digital.netlify.com/* https://digital.ulrich-anders.eu/:splat 301!
+https://digital.netlify.com/* https://digital.ulrich-anders.eu/:splat 301!
