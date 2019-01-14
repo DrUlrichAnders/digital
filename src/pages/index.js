@@ -943,6 +943,8 @@ const IndexPage = () => (
                 <code>npm install --global npm-check-updates</code>
                 <br />
                 <code>npm install --global serve</code>
+                <br />
+                <code>npm install --global gatsby-cli</code>
               </pre>
             </li>
             <li>
