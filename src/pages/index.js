@@ -945,7 +945,11 @@ const IndexPage = () => (
                 <code>npm install --global serve</code>
                 <br />
                 <code>npm install --global gatsby-cli</code>
+                <br />
               </pre>
+              Mac users may need to add a <code>sudo</code> before the{" "}
+              <code>npm</code> and then type in their Mac passwords when
+              requested.
             </li>
             <li>
               <a
