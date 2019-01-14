@@ -937,8 +937,8 @@ const IndexPage = () => (
               >
                 node
               </a>{" "}
-              (which comes with npm): after installing it open a command shell
-              and run{" "}
+              (which comes with npm): after installing it open a terminal or
+              command shell and run{" "}
               <pre>
                 <code>npm install --global npm-check-updates</code>
                 <br />
