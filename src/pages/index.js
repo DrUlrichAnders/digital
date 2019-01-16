@@ -1,6 +1,8 @@
 import React from "react"
 import Link from "gatsby-link"
 
+import Source from "../components/Source"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import {
@@ -47,7 +49,7 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["02"]} />
-
+      <Source>rawpixel on Unsplash</Source>
       <h2 id="future-of-work">
         The Future of Work{" "}
         <a href="/#future-of-work">
