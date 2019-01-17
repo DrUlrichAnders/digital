@@ -1043,6 +1043,7 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["07"]} />
+      <Source>JD Hudson</Source>
       <h2 id="github">
         GitHub{" "}
         <a href="/#github">
