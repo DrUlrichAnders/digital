@@ -1,7 +1,7 @@
 import React from "react"
 import Link from "gatsby-link"
 
-import Source from "../components/Source"
+import Credits from "../components/Credits"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -49,7 +49,7 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["02"]} />
-      <Source>rawpixel on Unsplash</Source>
+      <Credits>rawpixel on Unsplash</Credits>
       <h2 id="future-of-work">
         The Future of Work{" "}
         <a href="/#future-of-work">
@@ -1043,7 +1043,7 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["07"]} />
-      <Source>JD Hudson</Source>
+      <Credits>JD Hudson</Credits>
       <h2 id="github">
         GitHub{" "}
         <a href="/#github">

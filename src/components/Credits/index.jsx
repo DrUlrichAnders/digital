@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-const Source = props => {
+const Credits = props => {
   const { name, children } = props
   return (
     <p style={{ textAlign: "right" }}>
@@ -10,13 +10,13 @@ const Source = props => {
   )
 }
 
-Source.PropTypes = {
+Credits.PropTypes = {
   name: PropTypes.string,
-  source: PropTypes.string
+  credits: PropTypes.string
 }
 
-Source.defaultProps = {
-  name: "Source"
+Credits.defaultProps = {
+  name: "Credits"
 }
 
-export default Source
+export default Credits
