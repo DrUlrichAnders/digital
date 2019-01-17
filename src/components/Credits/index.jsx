@@ -10,7 +10,7 @@ const Credits = props => {
   )
 }
 
-Credits.PropTypes = {
+Credits.propTypes = {
   name: PropTypes.string,
   credits: PropTypes.string
 }

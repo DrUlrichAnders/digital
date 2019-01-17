@@ -17,6 +17,11 @@ import { Box } from "@rebass/grid"
 
 import img from "../img"
 import DCPicture from "../components/DCPicture"
+import PictureSet from "../components/PictureSet"
+
+import imgObj01 from "../img/imgObj01"
+import imgObj05 from "../img/imgObj05"
+import imgObj07 from "../img/imgObj07"
 
 const IndexPage = () => (
   <Container>
@@ -363,7 +368,7 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <DCPicture img={img["01"]} />
+      <PictureSet imgObj={imgObj01} />
       <h2 id="story-telling">
         Story Telling{" "}
         <a href="/#story-telling">
@@ -762,7 +767,8 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <DCPicture img={img["05"]} />
+      <PictureSet imgObj={imgObj05} />
+      <Credits>Photo by Guillaume Bolduc on Unsplash</Credits>
       <h2 id="website-programming">
         Website Programming{" "}
         <a href="/#website-programming">
@@ -1042,7 +1048,7 @@ const IndexPage = () => (
     <Hr />
 
     <Section>
-      <DCPicture img={img["07"]} />
+      <PictureSet imgObj={imgObj07} />
       <Credits>JD Hudson</Credits>
       <h2 id="github">
         GitHub{" "}
