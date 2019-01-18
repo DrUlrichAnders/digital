@@ -80,6 +80,7 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["12"]} />
+      <Credits> Branko Stancevic on Unsplash</Credits>
       <h2 id="digital-skills">
         Digital Skills{" "}
         <a href="/#digital-skills">
@@ -995,9 +996,10 @@ const IndexPage = () => (
               </a>
               <br /> with these recommended extensions: Atom Keymap, Auto Close
               Tag, Auto Rename Tag, Bracket Pair Colorizer, Code Runner, Code
-              Spell Checker, Color Highlight, EsLint, File Utils, Guides, Lorem
-              Ipsum, npm, npm Intellisense, Prettier, Sort lines, TODO
-              Highlight, vscode-icons, vscode-styled-components, Word Count.
+              Spell Checker, Color Highlight, EsLint, File Utils, Guides, Live
+              Server Preview, Lorem Ipsum, npm, npm Intellisense, Prettier, Sort
+              lines, TODO Highlight, vscode-icons, vscode-styled-components,
+              Word Count.
             </li>
             <li>
               It is recommendable to install the following file managers:
