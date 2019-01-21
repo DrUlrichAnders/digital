@@ -148,6 +148,7 @@ const IndexPage = () => (
 
     <Section>
       <DCPicture img={img["04"]} />
+      <Credits>to come</Credits>
       <h2 id="pitch-decks">
         Pitch Decks{" "}
         <a href="/#pitch-decks">
