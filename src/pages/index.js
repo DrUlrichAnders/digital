@@ -990,6 +990,16 @@ const IndexPage = () => (
             </li>
             <li>
               <a
+                href="https://app.netlify.com/signup"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign up to Netlify
+              </a>
+              .
+            </li>
+            <li>
+              <a
                 href="https://code.visualstudio.com/"
                 target="_blank"
                 rel="noopener noreferrer"
