@@ -994,14 +994,14 @@ const IndexPage = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Visual Studio Code
+                Visual Studio Code (VS Code)
               </a>
               <br /> with these recommended extensions: Atom Keymap, Auto Close
               Tag, Auto Rename Tag, Bracket Pair Colorizer, Code Runner, Code
               Spell Checker, Color Highlight, EsLint, File Utils, Guides, Live
-              Server Preview, Lorem Ipsum, npm, npm Intellisense, Prettier, Sort
-              lines, TODO Highlight, vscode-icons, vscode-styled-components,
-              Word Count.
+              Server Preview, Lorem Ipsum, Markdown Preview Github Styling, npm,
+              npm Intellisense, Prettier, Sort lines, TODO Highlight,
+              vscode-icons, vscode-styled-components, Word Count.
             </li>
             <li>
               It is recommendable to install the following file managers:
