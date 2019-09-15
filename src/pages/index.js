@@ -10,7 +10,7 @@ import {
   FlexStyled as Flex,
   Picture,
   Section,
-  Hr
+  Hr,
 } from "../components-styled"
 
 import { Box } from "@rebass/grid"
@@ -94,7 +94,7 @@ const IndexPage = () => (
       </p>
       <p>
         But what concrete skills are required to thrive in this world? Companies
-        are desperately seeking for <em>Digital Natives</em>. W hat does that
+        are desperately seeking for <em>Digital Natives</em>. What does that
         mean? Being a <em>Digital Native</em> requires much more than just being
         comfortable with using apps and social media. <em>Digital skills</em>{" "}
         are comprised of going well beyond this. Have a look:{" "}
