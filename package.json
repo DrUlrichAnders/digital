@@ -34,7 +34,7 @@
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
     "js-cookie": "^2.2.0",
-    "lazysizes": "^4.1.2",
+    "lazysizes": "^5.2.1",
     "moment": "^2.22.2",
     "prismjs": "^1.15.0",
     "react-cookie-consent": "^1.7.0",
